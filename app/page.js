@@ -41,8 +41,8 @@ export default function Home() {
                     <b>{t("front.title")}, </b>
                     {t("front.title2")}
                   </h2>
-                  <button>
-                    <Link rel="noopener noreferrer" target="_blank">
+                  <button className="action_button">
+                    <Link rel="noopener noreferrer" target="_blank" href="#">
                       <span>{t("front.action-button")}</span>
                       <FontAwesomeIcon icon={faArrowRight} />
                     </Link>
