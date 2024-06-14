@@ -15,11 +15,15 @@ module.exports = {
       colors: {
         primary: "#5441FF",
         accent: "#5340FF",
-        black: "#100025",
+        black: "#272932",
         white: "#FAFBFF",
         burgundy: "#9F226D",
         cyan: "#21E2ED",
         lilac: "#AE9FF2",
+        bluePrimary:'#1C74D9',
+        greenPrimary:'#98CE00',
+        //borrar ca_blue, ca_orange cuando ya no estén usándose en ningún componente
+        //borrar
         ca_blue: {
           900: "#3302BF",
           800: "#4507C9",
@@ -37,12 +41,27 @@ module.exports = {
           200: "FFBD1B",
           100: "FFE685",
         },
+        //borrar
 
         gray: {
-          400: "#383649",
-          300: "#706C93",
-          200: "#B5B2CC",
-          100: "#E9E8F0",
+          600:'#393D49',
+          500:'#606578',
+          400:'#B4B7C2',
+          300:'#DEE0EA',
+          200:'#F1F3FA',
+          100:'#F8F8F8',
+  
+        },
+        ffdGreen:{
+          400:'#D7F38A',
+          300: '#F1FFCA',
+        },
+        ffdBlue:{
+          500:'#3D8EEA',
+          400: '#9ECBFF',
+          300: '#C9E2FF',
+          200: '#E8F2FF',
+          100: '#F9FCFF'
         },
       },
     },
