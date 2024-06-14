@@ -31,14 +31,14 @@ export default function Header(props) {
       <a href="/">
         <div className="imagotype">
           <div className="isotype">
-            <img
-              className="logoheader"
-              src="/assets/img/iso_logo.png"
-              alt="logo"
-            />
+            
           </div>
           <div className="logotype">
-            <span>Cyber</span>Aula
+          <img
+              className="logoheader"
+              src="/assets/img/iso_logo.svg"
+              alt="logo"
+            />
           </div>
         </div>
       </a>

@@ -1,3 +1,4 @@
+@import "./_variables.sass"
 // Estilos de tipografía
 // Hay tres estilos
 // 1) para móvil (300-650px), 
@@ -31,17 +32,17 @@ $bold:800
 
 h1
     @media screen and (min-width: 150px)
-        font-family: "Montserrat", sans-serif
+        font-family: $main_font, sans-serif
         font-size: nth($xxl-text,1)
         line-height: nth($xxl-text,5)
         margin-bottom: nth($xxl-text,6)
     @media screen and (min-width: 640px)
-        font-family: "Montserrat", sans-serif
+        font-family: $main_font, sans-serif
         font-size: nth($xxl-text,2)
         line-height: nth($xxl-text,5)
         margin-bottom: nth($xxl-text,6)
     @media screen and (min-width: 1400px)
-        font-family: "Montserrat", sans-serif
+        font-family: $main_font, sans-serif
         font-size: nth($xxl-text,3)
         line-height: nth($xxl-text,5)
         margin-bottom: nth($xxl-text,6)
@@ -49,71 +50,71 @@ h1
 
 h2
     @media screen and (min-width: 150px)
-        font-family: "Montserrat", sans-serif
+        font-family: $main_font, sans-serif
         font-size: nth($xl-text,1)
         line-height: nth($xl-text,5)
         margin-bottom: nth($xl-text,6)
     @media screen and (min-width: 640px)
-        font-family: "Montserrat", sans-serif
+        font-family: $main_font, sans-serif
         font-size: nth($xl-text,2)
         line-height: nth($xl-text,5)
         margin-bottom: nth($xl-text,6)
     @media screen and (min-width: 1400px)
-        font-family: "Montserrat", sans-serif
+        font-family: $main_font, sans-serif
         font-size: nth($xl-text,3)
         line-height: nth($xl-text,5)
         margin-bottom: nth($xl-text,6)
 h3
     @media screen and (min-width: 150px)
-        font-family: "Montserrat", sans-serif
+        font-family: $main_font, sans-serif
         font-size: nth($lg-text,1)
         line-height: nth($lg-text,5)
         margin-bottom: nth($lg-text,6)
         font-weight: nth($lg-text,4)
     @media screen and (min-width: 640px)
-        font-family: "Montserrat", sans-serif
+        font-family: $main_font, sans-serif
         font-size: nth($lg-text,2)
         line-height: nth($lg-text,5)
         margin-bottom: nth($lg-text,6)
         font-weight: nth($lg-text,4)
     @media screen and (min-width: 1400px)
-        font-family: "Montserrat", sans-serif
+        font-family: $main_font, sans-serif
         font-size: nth($lg-text,3)
         line-height: nth($lg-text,5)
         margin-bottom: nth($lg-text,6)
         font-weight: nth($lg-text,4)
 h4
     @media screen and (min-width: 150px)
-        font-family: "Montserrat", sans-serif
+        font-family: $main_font, sans-serif
         font-size: nth($md-text,1)
         line-height: nth($md-text,5)
         margin-bottom: nth($md-text,6)
         font-weight: nth($lg-text,4)
     @media screen and (min-width: 640px)
-        font-family: "Montserrat", sans-serif
+        font-family: $main_font, sans-serif
         font-size: nth($md-text,2)
         line-height: nth($md-text,5)
         margin-bottom: nth($md-text,6)
         font-weight: nth($lg-text,4)
     @media screen and (min-width: 1400px)
-        font-family: "Montserrat", sans-serif
+        font-family: $main_font, sans-serif
         font-size: nth($md-text,3)
         line-height: nth($md-text,5)
         margin-bottom: nth($md-text,6)
         font-weight: nth($lg-text,4)
 h5
     @media screen and (min-width: 150px)
-        font-family: "Montserrat", sans-serif
+        font-family: $main_font, sans-serif
         font-size: nth($sm-text,1)
         line-height: nth($sm-text,5)
         margin-bottom: nth($sm-text,6)
     @media screen and (min-width: 640px)
-        font-family: "Montserrat", sans-serif
+        font-family: $main_font, sans-serif
         font-size: nth($sm-text,2)
         line-height: nth($sm-text,5)
         margin-bottom: nth($sm-text,6)
     @media screen and (min-width: 1400px)
-        font-family: "Montserrat", sans-serif
+        font-family: $main_font, sans-serif
         font-size: nth($sm-text,3)
         line-height: nth($sm-text,5)
         margin-bottom: nth($sm-text,6)
@@ -123,17 +124,17 @@ h5
 // parrafos, etiquetas e inputs
 p, label, input, select
     @media screen and (min-width: 150px)
-        font-family: "Montserrat", sans-serif
+        font-family:$main_font, sans-serif
         font-size: nth($body-text,1)
         line-height: nth($body-text,5)
         //margin-bottom: nth($body-text,6)
     @media screen and (min-width: 640px)
-        font-family: "Montserrat", sans-serif
+        font-family: $main_font, sans-serif
         font-size: nth($body-text,2)
         line-height: nth($body-text,5)
         //margin-bottom: nth($body-text,6)
     @media screen and (min-width: 1400px)
-        font-family: "Montserrat", sans-serif
+        font-family: $main_font, sans-serif
         font-size: nth($body-text,3)
         line-height: nth($body-text,5)
         //margin-bottom: nth($body-text,6)
@@ -141,17 +142,17 @@ p, label, input, select
 // texto pequeño 
 small
     @media screen and (min-width: 150px)
-        font-family: "Montserrat", sans-serif
+        font-family: $main_font, sans-serif
         font-size: nth($xs-text,1)
         line-height: nth($xs-text,5)
         //margin-bottom: nth($xs-text,6)
     @media screen and (min-width: 640px)
-        font-family: "Montserrat", sans-serif
+        font-family: $main_font, sans-serif
         font-size: nth($xs-text,2)
         line-height: nth($xs-text,5)
         //margin-bottom: nth($xs-text,6)
     @media screen and (min-width: 1400px)
-        font-family: "Montserrat", sans-serif
+        font-family: $main_font, sans-serif
         font-size: nth($xs-text,3)
         line-height: nth($xs-text,5)
         //margin-bottom: nth($xs-text,6)
@@ -160,17 +161,17 @@ small
     // parrafos
 .xs-text
     @media screen and (min-width: 150px)
-        font-family: "Montserrat", sans-serif
+        font-family: $main_font, sans-serif
         font-size: nth($xs-text,1)
         line-height: nth($xs-text,5)
         //margin-bottom: nth($xs-text,6)
     @media screen and (min-width: 640px)
-        font-family: "Montserrat", sans-serif
+        font-family: $main_font, sans-serif
         font-size: nth($xs-text,2)
         line-height: nth($xs-text,5)
         //margin-bottom: nth($xs-text,6)
     @media screen and (min-width: 1400px)
-        font-family: "Montserrat", sans-serif
+        font-family: $main_font, sans-serif
         font-size: nth($xs-text,3)
         line-height: nth($xs-text,5)
         //margin-bottom: nth($xs-text,6)
@@ -178,23 +179,23 @@ small
 // botones + botones con links
 button, a
     @media screen and (min-width: 150px)
-        font-family: "Montserrat", sans-serif
+        font-family: $main_font, sans-serif
         font-size: nth($button,1)
     @media screen and (min-width: 640px)
-        font-family: "Montserrat", sans-serif
+        font-family: $main_font, sans-serif
         font-size: nth($button, 2)
     @media screen and (min-width: 1400px)
-        font-family: "Montserrat", sans-serif
+        font-family: $main_font, sans-serif
         font-size: nth($button,3)
     a
         @media screen and (min-width: 150px)
-            font-family: "Montserrat", sans-serif
+            font-family: $main_font, sans-serif
             font-size: nth($button,1)
         @media screen and (min-width: 640px)
-            font-family: "Montserrat", sans-serif
+            font-family: $main_font, sans-serif
             font-size: nth($button, 2)
         @media screen and (min-width: 1400px)
-            font-family: "Montserrat", sans-serif
+            font-family: $main_font, sans-serif
             font-size: nth($button,3)
 
 .icon

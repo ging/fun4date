@@ -180,14 +180,10 @@
             display: flex
             width: auto
             height: 2rem
-            //margin: 0 0 0 1.4rem    
+            //margin: 0 0 0 1.4rem   
         .logotype 
-            display: none
-            font-size: 1.7rem
-            font-weight: $extra-bold
-            font-family: $helvetica
-            color: $black
-            padding: 0 0 0 0.7rem
+            .logoheader
+                width: 9rem
     .menu_icon 
         padding: 0
         display: flex
@@ -247,7 +243,7 @@
             height: auto
             margin: 0 0 0 0rem
         .logoheader 
-            width: 3.5rem
+            width: 11rem
         .logotype 
             display: flex
             width: auto
@@ -283,7 +279,7 @@
 @mixin nav_bar_one_line
     .imagotype
         .logoheader
-            width: 2.75rem
+            width: 9rem
         .logotype
             font-size: 1.7rem
     .menu 
@@ -305,7 +301,7 @@
             font-size: 2.4rem
         .isotype
             .logoheader
-                width: 3.25rem
+                width:11rem
 @mixin li_nav_bar
   li 
     &.li-selected 
@@ -381,14 +377,14 @@
         #banner-publications
             background-image: url("/assets/img/headers/publications-banner-desktop.svg")
         .parallax__layer
-            margin-top: 132px
+            margin-top: 98px
 
     @media (min-width:$min-desktop-width-es) 
         .banner
             margin-top: 60px
             height: 14vw
         .parallax__layer
-            margin-top: 90px
+            margin-top: 58px
 
     @media (min-width:$min-xl-desktop-width-es) 
         .banner
@@ -415,7 +411,7 @@
         #banner-publications
             background-image: url("/assets/img/headers/publications-banner-phone.svg")
         .parallax__layer
-            margin-top: 74px
+            margin-top: 44px
     @media (min-width:$min-tablet-width-en)     
         .banner
             margin-top: 112px
@@ -425,14 +421,14 @@
         #banner-publications
             background-image: url("/assets/img/headers/publications-banner-desktop.svg")
         .parallax__layer
-            margin-top: 132px
+            margin-top: 98px
 
     @media (min-width:$min-desktop-width-en) 
         .banner
             margin-top: 60px
             height: 14vw
         .parallax__layer
-            margin-top: 90px
+            margin-top: 58px
 
     @media (min-width:$min-xl-desktop-width-en) 
         .banner
