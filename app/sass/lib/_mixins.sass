@@ -14,132 +14,9 @@
     -moz-box-shadow: 0px 10px 13px -7px rgba(0,0,0,0.08)
     box-shadow: 0px 10px 13px -7px rgba(0,0,0,0.08)
 
-//--------------------
-//TAGS
-//-------------------
-// quizá no sea necesario poner media queries 
-// si todo se adapta con rems
 
-//ESTRUCTURA BASE DE TAG
-@mixin lg-tag
-    display: flex
-    align-items: center
-    padding: 0.3em 0.74em 
-    font-weight: 600
-    border-radius: 4px
-
-@mixin md-tag
-    display: flex
-    align-items: center
-    padding: 0.1em 0.5em 
-    font-weight: 600
-    border-radius: 4px
-
-//ESTILOS DE TAG   
-
-@mixin border-tag
-    @include md-tag
-    color: black
-    border: 1px solid black
-
-@mixin border-tag-white
-    @include md-tag
-    color: white
-    border: 1px solid black
-
-@mixin tag-black-transparent
-    @include lg-tag
-    background-color: rgb(0, 0, 0,0.3)    
-    font-weight: 500
-    color: white
    
   
-
-//--------------------
-//BUTTONS
-//-------------------
-
-//eliminar estilo por defecto de botón
-@mixin button
-    outline: none
-    border: none
-    background: none
-
-@mixin icon-button-left
-    svg 
-        align-self: center
-        margin-left: 0.6rem
-
-@mixin icon-button-right
-    svg 
-        align-self: center
-        margin-right: 0.6rem
-
-
-@mixin button-load-more
-    @include button
-    border-radius: 24px
-    padding: 0.5rem 1.2rem 0.7rem 1.4rem
-    color: $ca-blue-600
-    background: $ca-blue-200
-    cursor: pointer
-    &:hover
-        background: $ca-blue-300
-        color: $ca-blue-700
-        transition: 200ms ease-in-out
-
-@mixin border-button-white
-    @include button
-    border: 1px solid white
-    border-radius: 24px
-    padding: 0.3rem 1rem 0.4rem 0.8rem
-    color: white
-    p 
-        margin-bottom: 0
-@mixin big-border-button-blue
-    border: 1px solid $ca-blue-700
-    color: $ca-blue-700
-    border-radius: 24px
-    padding: 0.5rem 1.2rem 0.7rem 1.4rem
-    transition: 200ms ease-in-out
-    p 
-        font-weight: 500
-    &:hover
-        color: white
-        transition: 200ms ease-in-out
-        background-color: $ca-blue-600
-    &:active
-        color: white
-        transition: 200ms ease-in-out
-        background-color: $ca-blue-600
-
-@mixin button-load-more
-    border-radius: 24px
-    padding: 0.5rem 1.2rem 0.7rem 1.4rem
-    color: $ca-blue-900
-    background: $ca-blue-200
-    cursor: pointer
-    &:hover
-        background: $ca-blue-300
-        color: #0e1131
-        background: $ca-blue-300
-        transition: 200ms ease-in-out
-
-@mixin invisible-button
-    @include button
-    border-radius: 24px
-    @apply text-gray-800
-    padding: 0.5rem 1.2rem 0.7rem 1.4rem
-    transition: 200ms ease-in-out
-    &:hover
-        @apply text-gray-900
-        transition: 200ms ease-in-out
-        background-color: $ca-blue-300
-    &:active
-        @apply text-ca_blue-800
-        transition: 200ms ease-in-out
-        background-color: $ca-blue-300
-
 //NAVEGACIÓN
 
 //LANGUAGE SWICHER: Su posición en el header, 
@@ -299,9 +176,10 @@
     .imagotype
         .logotype 
             font-size: 2.4rem
-        .isotype
             .logoheader
                 width:11rem
+        .isotype
+            
 @mixin li_nav_bar
   li 
     &.li-selected 
@@ -353,7 +231,7 @@
 @mixin content_page_es
     @media (min-width: $min-phone-width-es)      
         .banner
-            margin-top: 46px
+            padding-top: 46px
             height: 7.4em
             background-image: url("/assets/img/headers/projects-banner-phone.svg")
             background-size: cover
@@ -428,7 +306,7 @@
             padding-top: 60px
             height: 14vw
         .parallax__layer
-            margin-top: 58px
+            padding-top: 58px
 
     @media (min-width:$min-xl-desktop-width-en) 
         .banner

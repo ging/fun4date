@@ -11,8 +11,9 @@ export const en = {
         "publicationstab": "Publications",
     },
     "front": {
-        "title": "Welcome to CyberAula",
-        "title2": "innovation group of the UPM",
+        "title": "Future Networks for Datacenters and Telcos",
+        "title2": "",
+        "action-button": "About the project",
         "awardH2":"EIG AWARDED IN 2017",
         "awardTitle": "Award to the educational innovation groups",
         "awardBody": "Award granted to the CyberAula group, coordinated by professor Juan Quemada Vives (H.T.S. of Telecommunication engineering) ",

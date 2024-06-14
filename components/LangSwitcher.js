@@ -25,7 +25,7 @@ export default function LangSwitcher() {
             <a
             key={lng}
             style={{
-                fontWeight: i18n.language === lng ? 'bold' : 'normal', 
+                fontWeight: i18n.language === lng ? '800' : '200', 
             }}
             type="submit"
             onClick={() => i18n.changeLanguage(lng)}

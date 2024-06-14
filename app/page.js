@@ -4,13 +4,14 @@ import { useEffect, useState } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import GridElement from "@/components/gridElement";
-import Carousel from "react-bootstrap/Carousel";
 import RecentPublications from "@/components/RecentPublications";
+import Link from "next/link";
 import { mycarousel } from "@/constants/carousel.js";
 import BulletElement from "@/components/BulletElement";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAward, faTrophy } from "@fortawesome/free-solid-svg-icons";
 import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 import { useTranslation } from "react-i18next";
 
@@ -30,20 +31,29 @@ export default function Home() {
         <div className="parallax__layer parallax__layer--base">
           <main>
             <section className="home">
-              <div className="head ">
-                <div className="group_description block sm:flex sm:flew-row sm:justify-between md:gap-8 sm:items-center ">
-                  <h1 className="mx-4 sm:mx-8 md:ml-12 lg:ml-16 xl:ml-20 2xl:ml-24">
+              <div className="head block sm:flex sm:flew-row">
+                <div className="group_description block sm:block  sm:justify-between md:gap-8 sm:items-center ">
+                  <img
+                    className="logo_home mt-4 sm:mt-0"
+                    src="/assets/img/iso_logo.svg"
+                  />
+                  <h2 className="text-white mx-4 sm:mx-8 md:ml-12 lg:ml-16 xl:ml-20 2xl:ml-24">
                     <b>{t("front.title")}, </b>
                     {t("front.title2")}
-                  </h1>
-                  <img
-                    className="mt-4 sm:mt-0"
-                    src="/assets/img/banner_prov.svg"
-                  />
+                  </h2>
+                  <button>
+                    <Link rel="noopener noreferrer" target="_blank">
+                      <span>{t("front.action-button")}</span>
+                      <FontAwesomeIcon icon={faArrowRight} />
+                    </Link>
+                  </button>
                 </div>
+                <img
+                  className="mt-4 sm:mt-0 w-1/2"
+                  src="/assets/img/banner_prov.svg"
+                />
               </div>
 
-              
               <div className="body lg:mx-36 md:mx-14 sm:mx-8 mx-4 lg:my-12 md:my-8 sm:my-4 my-4 xl:mx-44 2xl:mx-60">
                 <section className="award_section">
                   <FontAwesomeIcon className="award_icon" icon={faTrophy} />
@@ -78,8 +88,7 @@ export default function Home() {
 
                   <GridElement />
                 </section>
-              </div> 
-
+              </div>
             </section>
           </main>
           <Footer />
