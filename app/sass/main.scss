@@ -1,3 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// lib
+@import "lib/_responsive.sass";
+@import "lib/_type.sass";
+@import "lib/_variables.sass";
+@import "lib/_mixins.sass";
+
+// components
+@import "components/_buttons.sass";
+@import "components/_tags.sass";
+
+// partials
 @import "partials/_courses.sass";
 @import "partials/_headermenu.sass";
 @import "partials/_contact.sass";
@@ -9,10 +24,7 @@
 @import "partials/_banner.sass";
 @import "partials/_recentPublications.sass";
 @import "partials/_home.sass";
-@import "lib/_responsive.sass";
-@import "lib/_type.sass";
-@import "lib/_variables.sass";
-@import "lib/_mixins.sass";
+
 
 * {
  // @apply border-2 border-primary; // no funciona :( <-- funciona en el globals.scss though
