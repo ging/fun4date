@@ -17,11 +17,11 @@ $icon: 14px,14px, 16px,400
 $xs-text: 14px, 13px, 16px, 400, 140%, 1rem, 0.6rem //small
 $body-text: 14px, 16px, 18px, 400, 140%, 1rem, 0.6rem
 $button: 14px, 16px, 18px, 300 //buttons
-$sm-text: 16px, 18px, 20px, 600, 140%, 1rem, 0.6rem //h5
-$md-text: 18px, 20px, 22px, 600, 140%, 1rem //h4
-$lg-text: 22px, 26px, 30px, 600,140%, 1rem  //h3
-$xl-text: 25px, 30px, 36px, bold, 140%, 1rem //h2
-$xxl-text: 28px, 36px, 42px, bold, 140%, 1rem  //h1
+$sm-text: 16px, 18px, 20px, 400, 140%, 1rem, 0.6rem //h5
+$md-text: 18px, 20px, 22px, 400, 140%, 1rem //h4
+$lg-text: 22px, 26px, 30px, 400,140%, 1rem  //h3
+$xl-text: 25px, 30px, 36px, 300, 140%, 1rem //h2
+$xxl-text: 28px, 36px, 42px, 300, 140%, 1rem  //h1
 
 $slim-weight: 500
 $regular:400
@@ -36,17 +36,19 @@ h1
         font-size: nth($xxl-text,1)
         line-height: nth($xxl-text,5)
         margin-bottom: nth($xxl-text,6)
+        font-weight: nth($xxl-text,4)
     @media screen and (min-width: 640px)
         font-family: $main_font, sans-serif
         font-size: nth($xxl-text,2)
         line-height: nth($xxl-text,5)
         margin-bottom: nth($xxl-text,6)
+        font-weight: nth($xxl-text,4)
     @media screen and (min-width: 1400px)
         font-family: $main_font, sans-serif
         font-size: nth($xxl-text,3)
         line-height: nth($xxl-text,5)
         margin-bottom: nth($xxl-text,6)
-
+        font-weight: nth($xxl-text,4)
 
 h2
     @media screen and (min-width: 150px)
@@ -54,16 +56,19 @@ h2
         font-size: nth($xl-text,1)
         line-height: nth($xl-text,5)
         margin-bottom: nth($xl-text,6)
+        font-weight: nth($xl-text,4)
     @media screen and (min-width: 640px)
         font-family: $main_font, sans-serif
         font-size: nth($xl-text,2)
         line-height: nth($xl-text,5)
         margin-bottom: nth($xl-text,6)
+        font-weight: nth($xl-text,4)
     @media screen and (min-width: 1400px)
         font-family: $main_font, sans-serif
         font-size: nth($xl-text,3)
         line-height: nth($xl-text,5)
         margin-bottom: nth($xl-text,6)
+        font-weight: nth($xl-text,4)
 h3
     @media screen and (min-width: 150px)
         font-family: $main_font, sans-serif

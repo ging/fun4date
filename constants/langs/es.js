@@ -13,7 +13,7 @@ export const es = {
     },
     "front": {
         "title": "Redes Futuras para Centros de Datos y Empresas de Telecomunicaciones",
-        "title2": "",
+
         "action-button": "Sobre el proyecto",
         "awardH2":"GIE PREMIADO EN 2017",
         "awardTitle": "Premio a los grupos de innovación educativa ",

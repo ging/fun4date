@@ -7,6 +7,13 @@
     -webkit-box-shadow: 0px 10px 13px -7px rgba(0,0,0,0.18)
     -moz-box-shadow: 0px 10px 13px -7px rgba(0,0,0,0.18)
     box-shadow: 0px 10px 13px -7px rgba(0,0,0,0.18)
+
+//CAMBIAR ESTE AZUL POR LA VARIABLE DE AZUL / TRANSPARENTE
+@mixin drop-shadow-blue 
+    -webkit-box-shadow: 0px 8px 12px -11px rgba(91, 115, 255, 0.525)
+    // -moz-box-shadow: 0px 4px 4px -2px rgba(91, 115, 255, 0.525)
+    // box-shadow: 0px 4px 4px -2px rgba(91, 115, 255, 0.525)
+
 @mixin drop-shadow-intermediate 
     box-shadow: 0px 4px 4px 0px rgba(29, 29, 27, 0.15)
 @mixin drop-shadow-lighter
@@ -39,7 +46,7 @@
 
 // BARRA DE NAVEGACIÓN DE TELEFONO
 @mixin nav_bar_phone
-    @include drop-shadow-intermediate
+    @include drop-shadow-blue
     width: 100vw
     display: flex
     flex-flow: wrap row
@@ -97,7 +104,7 @@
 // ajustar los breakpoints según lo
 // que ocupe la lista de items (ul)
 @mixin nav_bar_two_lines
-    @include drop-shadow-intermediate
+    @include drop-shadow-blue
     width: 100vw
     display: flex
     flex-flow: wrap row

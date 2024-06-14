@@ -12,7 +12,6 @@ export const en = {
     },
     "front": {
         "title": "Future Networks for Datacenters and Telcos",
-        "title2": "",
         "action-button": "About the project",
         "awardH2":"EIG AWARDED IN 2017",
         "awardTitle": "Award to the educational innovation groups",
