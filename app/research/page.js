@@ -8,7 +8,7 @@ import Link from "next/link";
 import { mypublications } from "@/constants/publications";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from "react-i18next";
 
 export default function Research() {
   const { t, i18n } = useTranslation();
@@ -76,69 +76,85 @@ export default function Research() {
   };
 
   return (
+    <div className={"research page_" + currentLang}>
+      <Header route={"/research"} />
+      <div
+        className="banner px-4 sm:px-8 md:px-14 md:py-2 lg:px-24 lg:py-4 xl:px-28 xl:py-4 2xl:px-32 2xl:py-6"
+        id="banner-publications"
+      >
+        <h1>{t("publications.title")}</h1>
+        <p>
+          Este apartado es una recopilación de las publicaciones del equipo de
+          la UPM y de la UC3M. Las publicaciones de la UPM están centrados en el
+          tema de computación bla bla bla etc y los de la UC3M se centran en
+          sistemas de redes de no se cuantitos.
+        </p>
+      </div>
 
-      <div className={"research page_"+ currentLang}>
-        <Header route={"/research"} />
-        <div className="banner px-4 sm:px-8 md:px-14 md:py-2 lg:px-24 lg:py-4 xl:px-28 xl:py-4 2xl:px-32 2xl:py-6" id="banner-publications">
-          <h1>{t('publications.title')}</h1>
-        </div>
-        <main>
-          <section className="research lg:mx-36 md:mx-14 sm:mx-8 mx-4 lg:my-12 md:my-8 sm:my-4 my-4 xl:mx-44 2xl:mx-60">
-            <Filters
-              search={search}
-              year={year}
-              type={type}
-              papers={papers}
-              changeSearch={(search) => setState({ ...state, search: search })}
-              changeYear={(year) => setState({ ...state, year: year })}
-              changeType={(type) => setState({ ...state, type: type })}
-              results={
-                papersFiltered instanceof Array ? papersFiltered.length : 0
-              }
-            />
-            <div className="papers">
-              {papersFiltered
-                .slice(0, papersToShow)
-                .map(({ date, doi, author, title, journal }, ind) => {
-                  return (
-                    <div key={ind} className="paper">
-                      <div className="paper_main">
-                        <div className="paper_date">
-                          <span>
-                            <p className="year">{date ? date[0] : ""}</p>
-                          </span>
+      <main>
+        <section className="research lg:mx-36 md:mx-14 sm:mx-8 mx-4 lg:my-12 md:my-8 sm:my-4 my-4 xl:mx-44 2xl:mx-60">
+          <Filters
+            search={search}
+            year={year}
+            type={type}
+            papers={papers}
+            changeSearch={(search) => setState({ ...state, search: search })}
+            changeYear={(year) => setState({ ...state, year: year })}
+            changeType={(type) => setState({ ...state, type: type })}
+            results={
+              papersFiltered instanceof Array ? papersFiltered.length : 0
+            }
+          />
+          <div className="papers block lg:grid lg:grid-cols-2">
+            {papersFiltered
+              .slice(0, papersToShow)
+              .map(({ date, doi, author, title, journal }, ind) => {
+                return (
+                  <div key={ind} className="paper">
+                    <div className="paper_main">
+                      <div className="paper_date">
+                        <p className="year">{date ? date[0] : ""}</p>
+                      </div>
+                      <div className="paper_content">
+                        <div className="paper_title">
+                          <h4>{title}</h4>
                         </div>
-                        <div className="paper_content">
-                          <div className="paper_title">
-                            <h4>{title}</h4>
-                          </div>
-                          <div className="paper_subtitle">
-                            <p>{author}. {journal}</p>
-                          </div>
+                        <div className="paper_subtitle">
+                          <p>
+                            {author}. {journal}
+                          </p>
+                        </div>
+                        <div className="button_container">
+                        {doi ? (
+                      <button className="paper_link text-nowrap">
+                        <Link
+                          rel="noopener noreferrer"
+                          target="_blank"
+                          href={doi}
+                        >
+                          <span>{t("publications.button")}</span>
+                          <FontAwesomeIcon icon={faArrowRight} />
+                        </Link>
+                      </button>
+                    ) : null}
                         </div>
                       </div>
-                      {doi ? (
-                        <button className="paper_link text-nowrap">
-                          <Link rel="noopener noreferrer" target="_blank" href={doi}>
-                            <span>{t('publications.button')}</span>
-                            <FontAwesomeIcon icon={faArrowRight} />
-                          </Link>
-                        </button>
-                      ) : null}
                     </div>
-                  );
-                })}
-            </div>
-            <div className="load_more">
-              {papersFiltered.length > papersToShow && (
-                <button onClick={handleLoadMore}>{t('publications.button2')}</button>
-              )}
-            </div>
-          </section>
-        </main>
-        <Footer />
-      </div>
-  
-
+                    
+                  </div>
+                );
+              })}
+          </div>
+          <div className="load_more">
+            {papersFiltered.length > papersToShow && (
+              <button onClick={handleLoadMore}>
+                {t("publications.button2")}
+              </button>
+            )}
+          </div>
+        </section>
+      </main>
+      <Footer />
+    </div>
   );
 }

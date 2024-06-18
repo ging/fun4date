@@ -15,7 +15,7 @@
 
 $icon: 14px,14px, 16px,400
 $xs-text: 14px, 13px, 16px, 400, 140%, 1rem, 0.6rem //small
-$body-text: 14px, 16px, 18px, 400, 140%, 1rem, 0.6rem
+$body-text: 14px, 16px, 18px, 300, 140%, 1rem, 0.6rem
 $button: 14px, 16px, 18px, 300 //buttons
 $sm-text: 16px, 18px, 20px, 600, 140%, 1rem, 0.6rem //h5
 $md-text: 18px, 20px, 22px, 600, 140%, 1rem //h4
@@ -127,16 +127,19 @@ p, label, input, select
         font-family:$main_font, sans-serif
         font-size: nth($body-text,1)
         line-height: nth($body-text,5)
+        font-weight: nth($body-text,4)
         //margin-bottom: nth($body-text,6)
     @media screen and (min-width: 640px)
         font-family: $main_font, sans-serif
         font-size: nth($body-text,2)
         line-height: nth($body-text,5)
+        font-weight: nth($body-text,4)
         //margin-bottom: nth($body-text,6)
     @media screen and (min-width: 1400px)
         font-family: $main_font, sans-serif
         font-size: nth($body-text,3)
         line-height: nth($body-text,5)
+        font-weight: nth($body-text,4)
         //margin-bottom: nth($body-text,6)
 
 // texto pequeño 

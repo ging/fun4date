@@ -55,7 +55,7 @@
         .filter
             margin: 0 0.8rem 0.8rem 0
             width: 100%
-              text-align: right
+            text-align: right
             label
                 display: flex
                 //min-width: 5.1rem
@@ -63,19 +63,21 @@
                 padding-right: 1.6rem
                 margin-bottom: 0.4rem
                 line-height:120%
-                color: $blue_primary
+                @apply text-gray-400
+                font-weight: $light
+                border-radius: 0
             select,
             input 
                 padding: 0.5rem 1rem 0.5rem 0.5rem 
                 margin-right: 0.3rem
                 width: 100%
                 height: 3.2rem
-                background-color: white
-                border: 1px solid $ca-blue-600
-                border-radius: 4px
-                background-color: white
+                
+                
+                
+                
                 font-family: $main_font
-                color: $blue_primary
+                @apply text-gray-200 bg-gray-800 border border-gray-400
                 &:focus
                     @apply text-gray-700
                     border: $ca-blue-500 solid 1px
@@ -89,8 +91,10 @@
                     outline: none
             select
                 //width: 20.5rem
-                @apply text-gray-200
-                background: white
+                
+                @apply text-gray-200 bg-gray-800 border border-gray-400
+
+                
             
                 &:focus
                     border: $ca-blue-500 solid 1px
@@ -102,7 +106,7 @@
                 &:focus-visible
                     outline: none
                 option
-                    color: $ca-blue-700
+                    @apply text-gray-400
                     padding: 0 0.3rem 3rem 0.3rem
                     // border: 0px
                     // border-radius: 4px
@@ -112,38 +116,44 @@
     #filter_year
         width: auto
     .papers 
-        display: flex
-        flex-direction: column
+        // display: flex
+        
         padding-left: 0px
         .paper 
-            padding: $spacing_sm 0 
+            
             display: flex
             flex-direction: column
-            border-bottom: $ca-blue-200 1px solid
+            border-bottom: $gray-300 1px solid
+            
             
         .paper_main 
             display: flex
             flex-direction: column
             justify-content: space-between
-            gap: $spacing_xsm
+            
+            
             .paper_date
                 display: flex
+                border-right: 2px solid red 
                 p
-                    @include border-tag
+                    // @include border-tag
+                    @apply text-gray-400
+                    font-size: 2.5rem
+                    font-weight: 400
                     display: block
                 
             .paper_content
 
 
             .paper_title 
-                @apply text-black
+                @apply text-gray-100
 
             .paper_subtitle 
                 //padding-bottom: $spacing_md
-                @apply text-gray-900
+                @apply text-gray-100
                 margin-bottom: $spacing_xsm
             .paper_doi 
-                font-weight: 600
+                font-weight: 400
 
         .paper_link      
             @include icon-button-left 
@@ -212,7 +222,8 @@
 
 
             .paper_title 
-                @apply text-black
+                @apply text-ffdGreen-300
+                font-weight: 300
 
             .paper_subtitle 
                 //padding-bottom: $spacing_md
@@ -220,20 +231,23 @@
             .paper_doi 
                 font-weight: 600
 
-        .paper_link
-            @include button
+        .button_container
             display: flex
-            flex-direction: row
-            //gap: $spacing_xsm
-            align-content: flex-end
-            justify-content: flex-end
-            flex-wrap: wrap
-            margin: 0
-            p 
-                font-weight: 600
-                margin: 0
-            a
+            justify-content: end
+            .paper_link
+                @include button
                 display: flex
+                flex-direction: row
+                //gap: $spacing_xsm
+                align-content: flex-end
+                justify-content: flex-end
+                flex-wrap: wrap
+                margin: 0
+                p 
+                    font-weight: 600
+                    margin: 0
+                a
+                    display: flex
 @media (min-width: 750px)
     .research
       .filters       
@@ -243,6 +257,9 @@
                 min-width: 6.5rem
         .research-results
             margin-top: 0
+            color: $gray-100
+            p
+                color: $gray-100
 
 @media (min-width: 900px)
     .research
