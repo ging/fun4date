@@ -1,12 +1,10 @@
 export const es = {
     "nav":{
-        "item":"Publicaciones",
-        "item2":"Cursos",
-        "item3":"Herramientas",
-        "item4":"Proyectos",
-        "item5":"Equipo",
-        "item6":"Contacto",
-        
+        "item1":"Home",
+        "item2":"El proyecto",
+        "item3":"Equipo",
+        "item4":"Publicaciones",
+        "item5":"Contacto",
     },
     "header": {
         "publicationstab": "Publicaciones",
@@ -98,9 +96,9 @@ export const es = {
     },
     "footer": {
         "title1":"secciones",
-        "title2": "redes sociales",
-        "logoSub": "Grupo de innovación educativa",
-        "logoSub2": "Universidad Politécnica de Madrid",
+        "title2": "Proyecto financiado por:",
+        "title3": "Colaboran:",
+        "logoSub": "Redes Futuras para Centros de Datos y Empresas de Telecomunicaciones",
         "titleRight": "Departamento de Ingeniería de sistemas telemáticos",
         "titleRight2": "ETSI telecomunicación",
     },

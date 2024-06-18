@@ -63,6 +63,9 @@
 @import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
+@import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
 @import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
@@ -95,6 +98,292 @@
 @import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
+@import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@media screen and (min-width: 150px) {
+  h1 {
+    font-family: "Archivo", sans-serif;
+    font-size: 28px;
+    line-height: 140%;
+    margin-bottom: 1rem;
+    font-weight: 300;
+  }
+}
+@media screen and (min-width: 640px) {
+  h1 {
+    font-family: "Archivo", sans-serif;
+    font-size: 36px;
+    line-height: 140%;
+    margin-bottom: 1rem;
+    font-weight: 300;
+  }
+}
+@media screen and (min-width: 1400px) {
+  h1 {
+    font-family: "Archivo", sans-serif;
+    font-size: 42px;
+    line-height: 140%;
+    margin-bottom: 1rem;
+    font-weight: 300;
+  }
+}
+
+@media screen and (min-width: 150px) {
+  h2 {
+    font-family: "Archivo", sans-serif;
+    font-size: 23px;
+    line-height: 140%;
+    margin-bottom: 1rem;
+    font-weight: 300;
+  }
+}
+@media screen and (min-width: 640px) {
+  h2 {
+    font-family: "Archivo", sans-serif;
+    font-size: 30px;
+    line-height: 140%;
+    margin-bottom: 1rem;
+    font-weight: 300;
+  }
+}
+@media screen and (min-width: 1400px) {
+  h2 {
+    font-family: "Archivo", sans-serif;
+    font-size: 36px;
+    line-height: 140%;
+    margin-bottom: 1rem;
+    font-weight: 300;
+  }
+}
+
+@media screen and (min-width: 150px) {
+  h3 {
+    font-family: "Archivo", sans-serif;
+    font-size: 22px;
+    line-height: 140%;
+    margin-bottom: 1rem;
+    font-weight: 400;
+  }
+}
+@media screen and (min-width: 640px) {
+  h3 {
+    font-family: "Archivo", sans-serif;
+    font-size: 26px;
+    line-height: 140%;
+    margin-bottom: 1rem;
+    font-weight: 400;
+  }
+}
+@media screen and (min-width: 1400px) {
+  h3 {
+    font-family: "Archivo", sans-serif;
+    font-size: 30px;
+    line-height: 140%;
+    margin-bottom: 1rem;
+    font-weight: 400;
+  }
+}
+
+@media screen and (min-width: 150px) {
+  h4 {
+    font-family: "Archivo", sans-serif;
+    font-size: 18px;
+    line-height: 140%;
+    margin-bottom: 1rem;
+    font-weight: 400;
+  }
+}
+@media screen and (min-width: 640px) {
+  h4 {
+    font-family: "Archivo", sans-serif;
+    font-size: 20px;
+    line-height: 140%;
+    margin-bottom: 1rem;
+    font-weight: 400;
+  }
+}
+@media screen and (min-width: 1400px) {
+  h4 {
+    font-family: "Archivo", sans-serif;
+    font-size: 22px;
+    line-height: 140%;
+    margin-bottom: 1rem;
+    font-weight: 400;
+  }
+}
+
+@media screen and (min-width: 150px) {
+  h5 {
+    font-family: "Archivo", sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (min-width: 640px) {
+  h5 {
+    font-family: "Archivo", sans-serif;
+    font-size: 18px;
+    line-height: 140%;
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (min-width: 1400px) {
+  h5 {
+    font-family: "Archivo", sans-serif;
+    font-size: 20px;
+    line-height: 140%;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width: 150px) {
+  p, label, input, select {
+    font-family: "Archivo", sans-serif;
+    font-size: 14px;
+    line-height: 140%;
+  }
+}
+@media screen and (min-width: 640px) {
+  p, label, input, select {
+    font-family: "Archivo", sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  p, label, input, select {
+    font-family: "Archivo", sans-serif;
+    font-size: 18px;
+    line-height: 140%;
+  }
+}
+
+@media screen and (min-width: 150px) {
+  small {
+    font-family: "Archivo", sans-serif;
+    font-size: 14px;
+    line-height: 140%;
+  }
+}
+@media screen and (min-width: 640px) {
+  small {
+    font-family: "Archivo", sans-serif;
+    font-size: 13px;
+    line-height: 140%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  small {
+    font-family: "Archivo", sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+  }
+}
+
+@media screen and (min-width: 150px) {
+  .xs-text {
+    font-family: "Archivo", sans-serif;
+    font-size: 14px;
+    line-height: 140%;
+  }
+}
+@media screen and (min-width: 640px) {
+  .xs-text {
+    font-family: "Archivo", sans-serif;
+    font-size: 13px;
+    line-height: 140%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .xs-text {
+    font-family: "Archivo", sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+  }
+}
+
+@media screen and (min-width: 150px) {
+  button, a {
+    font-family: "Archivo", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+  }
+}
+@media screen and (min-width: 640px) {
+  button, a {
+    font-family: "Archivo", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+  }
+}
+@media screen and (min-width: 1400px) {
+  button, a {
+    font-family: "Archivo", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+  }
+}
+@media screen and (min-width: 150px) {
+  button a, a a {
+    font-family: "Archivo", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+  }
+}
+@media screen and (min-width: 640px) {
+  button a, a a {
+    font-family: "Archivo", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+  }
+}
+@media screen and (min-width: 1400px) {
+  button a, a a {
+    font-family: "Archivo", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+  }
+}
+
+@media screen and (min-width: 150px) {
+  .icon {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 640px) {
+  .icon {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .icon {
+    font-size: 16px;
+  }
+}
+
+.action_button {
+  outline: none;
+  border: none;
+  background: none;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 0.6rem 1rem 0.8rem 0.8rem;
+  color: white;
+}
+.action_button p {
+  margin-bottom: 0;
+}
+.action_button svg {
+  align-self: center;
+  margin-left: 0.6rem;
+}
+
 @media (min-width: 150px) {
   .course {
     height: 100%;
@@ -134,8 +423,8 @@
     border: none;
     background: none;
     border: 1px solid white;
-    border-radius: 24px;
-    padding: 0.3rem 1rem 0.4rem 0.8rem;
+    border-radius: 4px;
+    padding: 0.6rem 1rem 0.8rem 0.8rem;
     color: white;
     transition: 200ms ease-in-out;
   }
@@ -144,7 +433,7 @@
   }
   .card_container_top .course_route svg {
     align-self: center;
-    margin-right: 0.6rem;
+    margin-left: 0.6rem;
   }
   .card_container_top .course_route:hover {
     background: white;
@@ -218,6 +507,9 @@
   }
 }
 @media (min-width: 1400px) {
+  .course {
+    height: 300px;
+  }
   .course .course_text_block {
     max-width: 100rem;
   }
@@ -269,14 +561,20 @@
 }
 
 header {
-  background-color: white;
+  background-color: #272932;
   z-index: 200;
+  color: white;
+}
+header li a:hover {
+  border-bottom: 2px solid #9ECBFF;
+  text-decoration: none;
 }
 header li.li-selected a {
-  border-bottom: 5px solid #ffe685;
+  color: #9ECBFF;
+  border-bottom: 2px solid #9ECBFF;
 }
 header li.li-selected a:hover {
-  border-bottom: 5px solid #ffe685;
+  border-bottom: 2px solid #9ECBFF;
 }
 
 .nav_bar {
@@ -287,7 +585,6 @@ header li.li-selected a:hover {
 
 @media (min-width: 150px) {
   .lang_switcher {
-    @apply text-gray-600;
     margin-left: 2.4rem;
     display: flex;
     flex-direction: column;
@@ -616,7 +913,7 @@ h4, h5 {
     border: none;
     border-radius: 24px;
     padding: 0.5rem 1.2rem 0.7rem 1.4rem;
-    color: #3302bf;
+    color: #1C74D9;
     background: #dbe2ff;
     cursor: pointer;
   }
@@ -630,7 +927,7 @@ h4, h5 {
     text-align: left;
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 16px;
+    padding-bottom: 48px;
     border-bottom: solid 1px #dbe2ff;
     justify-content: left;
   }
@@ -644,7 +941,7 @@ h4, h5 {
     padding-right: 1.6rem;
     margin-bottom: 0.4rem;
     line-height: 120%;
-    color: #5441ff;
+    color: #1C74D9;
   }
   .filters .filter select,
   .filters .filter input {
@@ -653,11 +950,11 @@ h4, h5 {
     width: 100%;
     height: 3.2rem;
     background-color: white;
-    border: 1px solid #5441ff;
+    border: 1px solid #1C74D9;
     border-radius: 4px;
     background-color: white;
-    font-family: "montserrat", sans-serif;
-    color: #5441ff;
+    font-family: "Archivo";
+    color: #1C74D9;
   }
   .filters .filter select:focus,
   .filters .filter input:focus {
@@ -693,7 +990,7 @@ h4, h5 {
     outline: none;
   }
   .filters .filter select option {
-    color: #4f1be4;
+    color: #1C74D9;
     padding: 0 0.3rem 3rem 0.3rem;
   }
   .filters .filter #year {
@@ -754,11 +1051,11 @@ h4, h5 {
   }
   .papers .paper_link svg {
     align-self: center;
-    margin-left: 0.6rem;
+    margin-right: 0.6rem;
   }
   .papers .paper_link a {
-    border: 1px solid #4f1be4;
-    color: #4f1be4;
+    border: 1px solid #1C74D9;
+    color: #1C74D9;
     border-radius: 24px;
     padding: 0.5rem 1.2rem 0.7rem 1.4rem;
     transition: 200ms ease-in-out;
@@ -771,12 +1068,12 @@ h4, h5 {
   .papers .paper_link a:hover {
     color: white;
     transition: 200ms ease-in-out;
-    background-color: #5441ff;
+    background-color: #1C74D9;
   }
   .papers .paper_link a:active {
     color: white;
     transition: 200ms ease-in-out;
-    background-color: #5441ff;
+    background-color: #1C74D9;
   }
 }
 @media (min-width: 640px) {
@@ -785,7 +1082,7 @@ h4, h5 {
     display: flex;
     flex-wrap: wrap;
     gap: 4px;
-    padding-bottom: 16px;
+    padding-bottom: 48px;
     border-bottom: solid 1px #ebf0ff;
     justify-content: space-between;
   }
@@ -812,10 +1109,10 @@ h4, h5 {
     gap: 8px;
     display: flex;
     flex-direction: column;
-    padding: 8px 0 16px 0;
+    padding: 16px 0 32px 0;
   }
   .papers .paper {
-    padding: 6px 0 16px 0;
+    padding: 16px 0 32px 0;
   }
   .papers .paper_main {
     display: flex;
@@ -985,8 +1282,8 @@ h4, h5 {
     background: none;
   }
   .tools .tool .tool_content .tool_button_container .tool_button a {
-    border: 1px solid #4f1be4;
-    color: #4f1be4;
+    border: 1px solid #1C74D9;
+    color: #1C74D9;
     border-radius: 24px;
     padding: 0.5rem 1.2rem 0.7rem 1.4rem;
     transition: 200ms ease-in-out;
@@ -998,12 +1295,12 @@ h4, h5 {
   .tools .tool .tool_content .tool_button_container .tool_button a:hover {
     color: white;
     transition: 200ms ease-in-out;
-    background-color: #5441ff;
+    background-color: #1C74D9;
   }
   .tools .tool .tool_content .tool_button_container .tool_button a:active {
     color: white;
     transition: 200ms ease-in-out;
-    background-color: #5441ff;
+    background-color: #1C74D9;
   }
   .tools .tool .tool_content .tool_button_container .tool_button svg {
     display: none;
@@ -1043,8 +1340,8 @@ h4, h5 {
     justify-content: left;
   }
   .tools .tool .tool_content .tool_button_container .tool_button a {
-    border: 1px solid #4f1be4;
-    color: #4f1be4;
+    border: 1px solid #1C74D9;
+    color: #1C74D9;
     border-radius: 24px;
     padding: 0.5rem 1.2rem 0.7rem 1.4rem;
     transition: 200ms ease-in-out;
@@ -1056,12 +1353,12 @@ h4, h5 {
   .tools .tool .tool_content .tool_button_container .tool_button a:hover {
     color: white;
     transition: 200ms ease-in-out;
-    background-color: #5441ff;
+    background-color: #1C74D9;
   }
   .tools .tool .tool_content .tool_button_container .tool_button a:active {
     color: white;
     transition: 200ms ease-in-out;
-    background-color: #5441ff;
+    background-color: #1C74D9;
   }
   .tools .tool .tool_content .tool_button_container .tool_button svg {
     display: flex;
@@ -1087,8 +1384,8 @@ h4, h5 {
     justify-content: left;
   }
   .tools .tool .tool_content .tool_button_container .tool_button a {
-    border: 1px solid #4f1be4;
-    color: #4f1be4;
+    border: 1px solid #1C74D9;
+    color: #1C74D9;
     border-radius: 24px;
     padding: 0.5rem 1.2rem 0.7rem 1.4rem;
     transition: 200ms ease-in-out;
@@ -1100,12 +1397,12 @@ h4, h5 {
   .tools .tool .tool_content .tool_button_container .tool_button a:hover {
     color: white;
     transition: 200ms ease-in-out;
-    background-color: #5441ff;
+    background-color: #1C74D9;
   }
   .tools .tool .tool_content .tool_button_container .tool_button a:active {
     color: white;
     transition: 200ms ease-in-out;
-    background-color: #5441ff;
+    background-color: #1C74D9;
   }
   .tools .tool .tool_content .tool_button_container .tool_button svg {
     display: flex;
@@ -1153,8 +1450,8 @@ h4, h5 {
     justify-content: left;
   }
   .tools .tool .tool_content .tool_button_container .tool_button a {
-    border: 1px solid #4f1be4;
-    color: #4f1be4;
+    border: 1px solid #1C74D9;
+    color: #1C74D9;
     border-radius: 24px;
     padding: 0.5rem 1.2rem 0.7rem 1.4rem;
     transition: 200ms ease-in-out;
@@ -1166,12 +1463,12 @@ h4, h5 {
   .tools .tool .tool_content .tool_button_container .tool_button a:hover {
     color: white;
     transition: 200ms ease-in-out;
-    background-color: #5441ff;
+    background-color: #1C74D9;
   }
   .tools .tool .tool_content .tool_button_container .tool_button a:active {
     color: white;
     transition: 200ms ease-in-out;
-    background-color: #5441ff;
+    background-color: #1C74D9;
   }
   .tools .tool .tool_content .tool_button_container .tool_button svg {
     display: flex;
@@ -1213,8 +1510,8 @@ h4, h5 {
     gap: 0.3rem;
   }
   .tools .tool .tool_content .tool_button_container .tool_button a {
-    border: 1px solid #4f1be4;
-    color: #4f1be4;
+    border: 1px solid #1C74D9;
+    color: #1C74D9;
     border-radius: 24px;
     padding: 0.5rem 1.2rem 0.7rem 1.4rem;
     transition: 200ms ease-in-out;
@@ -1225,12 +1522,12 @@ h4, h5 {
   .tools .tool .tool_content .tool_button_container .tool_button a:hover {
     color: white;
     transition: 200ms ease-in-out;
-    background-color: #5441ff;
+    background-color: #1C74D9;
   }
   .tools .tool .tool_content .tool_button_container .tool_button a:active {
     color: white;
     transition: 200ms ease-in-out;
-    background-color: #5441ff;
+    background-color: #1C74D9;
   }
   .tools .tool .tool_content .tool_button_container .tool_button svg {
     display: none;
@@ -1260,8 +1557,8 @@ h4, h5 {
     justify-content: left;
   }
   .tools .tool .tool_content .tool_button_container .tool_button a {
-    border: 1px solid #4f1be4;
-    color: #4f1be4;
+    border: 1px solid #1C74D9;
+    color: #1C74D9;
     border-radius: 24px;
     padding: 0.5rem 1.2rem 0.7rem 1.4rem;
     transition: 200ms ease-in-out;
@@ -1273,12 +1570,12 @@ h4, h5 {
   .tools .tool .tool_content .tool_button_container .tool_button a:hover {
     color: white;
     transition: 200ms ease-in-out;
-    background-color: #5441ff;
+    background-color: #1C74D9;
   }
   .tools .tool .tool_content .tool_button_container .tool_button a:active {
     color: white;
     transition: 200ms ease-in-out;
-    background-color: #5441ff;
+    background-color: #1C74D9;
   }
   .tools .tool .tool_content .tool_button_container .tool_button svg {
     display: flex;
@@ -1326,12 +1623,19 @@ h4, h5 {
 @media (min-width: 150px) {
   footer {
     width: 100%;
-    padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+    padding: 2.5rem 2.5rem 1.5rem 2.5rem;
     font-size: 1.1rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    @apply bg-primary;
+    display: flex;
+    flex-direction: column;
+    @apply bg-secondary;
     @apply text-white;
+  }
+  footer .container_line_1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    gap: 2rem;
+    justify-content: space-between;
   }
   footer .footer_left {
     grid-column: span 2;
@@ -1342,27 +1646,41 @@ h4, h5 {
   }
   footer .footer_left .footer_subtitle {
     font-size: 16px;
+  }
+  footer .footer_mid {
+    display: flex;
+    text-align: center;
+  }
+  footer .footer_mid .footer_img_container_funder {
+    text-align: left;
+    display: block;
+    margin-bottom: 2rem;
+  }
+  footer .footer_mid .footer_img_container_funder p {
     margin-bottom: 1rem;
   }
-  footer .footer_mid_1 {
-    display: flex;
-    text-align: center;
+  footer .footer_mid .footer_img_container_funder img {
+    width: 80vw;
+    max-width: 400px;
   }
-  footer .footer_mid_1 .footer_sections {
-    display: flex;
+  footer .footer_mid .footer_img_container_partners {
+    text-align: left;
+    display: block;
   }
-  footer .footer_mid_1 .footer_sections nav ul {
+  footer .footer_mid .footer_img_container_partners div {
     display: flex;
-    flex-direction: column;
+    align-items: center;
   }
-  footer .footer_mid_2 {
-    display: flex;
-    text-align: center;
+  footer .footer_mid .footer_img_container_partners img {
+    width: 40vw;
+    max-width: 400px;
   }
   footer .footer_right {
     text-align: left;
-    align-items: left;
-    grid-column: span 2;
+  }
+  footer .footer_right .copyright {
+    max-width: 80vw;
+    @apply text-gray-400;
   }
   footer ul {
     justify-content: center;
@@ -1373,15 +1691,50 @@ h4, h5 {
     margin: 0 1.3rem 0 0;
   }
 }
-@media (min-width: 800px) {
+@media (min-width: 700px) {
   footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
+  footer .container_line_1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+    justify-content: space-between;
+  }
   footer .footer-right {
     text-align: right;
     align-items: right;
+  }
+  footer .footer_mid .footer_img_container_funder {
+    text-align: left;
+    display: block;
+  }
+  footer .footer_mid .footer_img_container_funder p {
+    margin-bottom: 2rem;
+  }
+  footer .footer_mid .footer_img_container_funder img {
+    max-width: 20vw;
+  }
+  footer .footer_mid .footer_img_container_partners {
+    text-align: left;
+    display: block;
+  }
+  footer .footer_mid .footer_img_container_partners div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  footer .footer_mid .footer_img_container_partners img {
+    height: auto;
+    max-width: 13vw;
+  }
+  footer .footer_right {
+    text-align: left;
+  }
+  footer .footer_right .copyright {
+    max-width: 42vw;
   }
 }
 ._publications._recent_publications {
@@ -1416,10 +1769,10 @@ h4, h5 {
   @apply bg-gray-100;
 }
 .article .article_stroke.color-orange {
-  border: 4px solid #ff9900;
+  border: 4px solid #FF9900;
 }
 .article .article_stroke.color-yellow {
-  border: 4px solid #ffe685;
+  border: 4px solid #FFE685;
 }
 .article .article_stroke.color-purple {
   border: 4px solid #97a7ff;
@@ -1470,11 +1823,11 @@ h4, h5 {
 }
 .paper_link svg {
   align-self: center;
-  margin-left: 0.6rem;
+  margin-right: 0.6rem;
 }
 .paper_link a {
-  border: 1px solid #4f1be4;
-  color: #4f1be4;
+  border: 1px solid #1C74D9;
+  color: #1C74D9;
   border-radius: 24px;
   padding: 0.5rem 1.2rem 0.7rem 1.4rem;
   transition: 200ms ease-in-out;
@@ -1487,12 +1840,12 @@ h4, h5 {
 .paper_link a:hover {
   color: white;
   transition: 200ms ease-in-out;
-  background-color: #5441ff;
+  background-color: #1C74D9;
 }
 .paper_link a:active {
   color: white;
   transition: 200ms ease-in-out;
-  background-color: #5441ff;
+  background-color: #1C74D9;
 }
 
 @media (min-width: 150px) {
@@ -1505,21 +1858,41 @@ h4, h5 {
     width: 80%;
     @apply text-gray-800;
   }
+  .group_description {
+    z-index: 100;
+  }
+  .group_description .logo_home {
+    width: 60vw;
+    max-width: 300px;
+    height: auto;
+  }
   .group_description img {
     width: 100%;
     height: 26.2vw;
+    z-index: 0;
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: 50% 0;
        object-position: 50% 0;
   }
+  .banner_f4d_img {
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    opacity: 45%;
+    z-index: 0;
+    background-image: url("/assets/img/banner_prov.svg");
+    margin: -6vh 0 0;
+    background-size: cover;
+    background-position: 70% 0;
+  }
   .award_section {
     display: flex;
+    margin: 64px auto;
     background: #fff9e6;
-    gap: 0.2rem;
+    gap: 32px;
     border-radius: 24px;
-    padding: 0.8rem;
-    border: 2px #ffe685 solid;
+    border: 2px #FFE685 solid;
     @apply text-orange-500;
     width: 100%;
     flex-direction: column;
@@ -1565,10 +1938,10 @@ h4, h5 {
     box-shadow: 0px 10px 13px -7px rgba(0, 0, 0, 0.08);
   }
 }
-@media (min-width: 600px) {
+@media (min-width: 640px) {
   .award_section {
     width: 85%;
-    padding: 1rem 2rem 1rem 2rem;
+    padding: 1.5rem 2rem 1rem 2rem;
     flex-direction: column;
   }
   .award_section .award_icon {
@@ -1579,6 +1952,10 @@ h4, h5 {
   .group_description {
     width: 100vw;
   }
+  .group_description .logo_home {
+    height: 4rem;
+    width: auto;
+  }
   .group_description img {
     width: auto;
     height: 25rem;
@@ -1587,13 +1964,19 @@ h4, h5 {
     -o-object-position: 50% 0;
        object-position: 50% 0;
   }
+  .banner_f4d_img {
+    position: relative;
+    height: 27vw;
+    opacity: 100%;
+    z-index: 0;
+    background-position: 100% 0;
+  }
 }
 @media (min-width: 900px) {
   .award_section {
     flex-direction: row;
     width: 70%;
     text-align: left;
-    gap: 1.2rem;
     align-self: flex-start;
   }
   .award_section .award_title {
@@ -1615,6 +1998,9 @@ h4, h5 {
     padding: 1.5rem;
     align-self: flex-start;
   }
+  .group_description .logo_home {
+    height: 4rem;
+  }
   .group_description img {
     height: 35rem;
   }
@@ -1624,260 +2010,13 @@ h4, h5 {
     flex-direction: row;
     width: 60%;
   }
+  .group_description .logo_home {
+    height: 5rem;
+  }
   .group_description img {
     height: 50rem;
   }
 }
-@media screen and (min-width: 150px) {
-  h1 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 28px;
-    line-height: 140%;
-    margin-bottom: 1rem;
-  }
-}
-@media screen and (min-width: 640px) {
-  h1 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 36px;
-    line-height: 140%;
-    margin-bottom: 1rem;
-  }
-}
-@media screen and (min-width: 1400px) {
-  h1 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 42px;
-    line-height: 140%;
-    margin-bottom: 1rem;
-  }
-}
-
-@media screen and (min-width: 150px) {
-  h2 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 25px;
-    line-height: 140%;
-    margin-bottom: 1rem;
-  }
-}
-@media screen and (min-width: 640px) {
-  h2 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 30px;
-    line-height: 140%;
-    margin-bottom: 1rem;
-  }
-}
-@media screen and (min-width: 1400px) {
-  h2 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 36px;
-    line-height: 140%;
-    margin-bottom: 1rem;
-  }
-}
-
-@media screen and (min-width: 150px) {
-  h3 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 22px;
-    line-height: 140%;
-    margin-bottom: 1rem;
-    font-weight: 600;
-  }
-}
-@media screen and (min-width: 640px) {
-  h3 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 26px;
-    line-height: 140%;
-    margin-bottom: 1rem;
-    font-weight: 600;
-  }
-}
-@media screen and (min-width: 1400px) {
-  h3 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 30px;
-    line-height: 140%;
-    margin-bottom: 1rem;
-    font-weight: 600;
-  }
-}
-
-@media screen and (min-width: 150px) {
-  h4 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 18px;
-    line-height: 140%;
-    margin-bottom: 1rem;
-    font-weight: 600;
-  }
-}
-@media screen and (min-width: 640px) {
-  h4 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 20px;
-    line-height: 140%;
-    margin-bottom: 1rem;
-    font-weight: 600;
-  }
-}
-@media screen and (min-width: 1400px) {
-  h4 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 24px;
-    line-height: 140%;
-    margin-bottom: 1rem;
-    font-weight: 600;
-  }
-}
-
-@media screen and (min-width: 150px) {
-  h5 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 16px;
-    line-height: 140%;
-    margin-bottom: 1rem;
-  }
-}
-@media screen and (min-width: 640px) {
-  h5 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 18px;
-    line-height: 140%;
-    margin-bottom: 1rem;
-  }
-}
-@media screen and (min-width: 1400px) {
-  h5 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 22px;
-    line-height: 140%;
-    margin-bottom: 1rem;
-  }
-}
-
-@media screen and (min-width: 150px) {
-  p, label, input, select {
-    font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-    line-height: 140%;
-  }
-}
-@media screen and (min-width: 640px) {
-  p, label, input, select {
-    font-family: "Montserrat", sans-serif;
-    font-size: 16px;
-    line-height: 140%;
-  }
-}
-@media screen and (min-width: 1400px) {
-  p, label, input, select {
-    font-family: "Montserrat", sans-serif;
-    font-size: 19px;
-    line-height: 140%;
-  }
-}
-
-@media screen and (min-width: 150px) {
-  small {
-    font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-    line-height: 140%;
-  }
-}
-@media screen and (min-width: 640px) {
-  small {
-    font-family: "Montserrat", sans-serif;
-    font-size: 13px;
-    line-height: 140%;
-  }
-}
-@media screen and (min-width: 1400px) {
-  small {
-    font-family: "Montserrat", sans-serif;
-    font-size: 16px;
-    line-height: 140%;
-  }
-}
-
-@media screen and (min-width: 150px) {
-  .xs-text {
-    font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-    line-height: 140%;
-  }
-}
-@media screen and (min-width: 640px) {
-  .xs-text {
-    font-family: "Montserrat", sans-serif;
-    font-size: 13px;
-    line-height: 140%;
-  }
-}
-@media screen and (min-width: 1400px) {
-  .xs-text {
-    font-family: "Montserrat", sans-serif;
-    font-size: 16px;
-    line-height: 140%;
-  }
-}
-
-@media screen and (min-width: 150px) {
-  button, a {
-    font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-  }
-}
-@media screen and (min-width: 640px) {
-  button, a {
-    font-family: "Montserrat", sans-serif;
-    font-size: 16px;
-  }
-}
-@media screen and (min-width: 1400px) {
-  button, a {
-    font-family: "Montserrat", sans-serif;
-    font-size: 19px;
-  }
-}
-@media screen and (min-width: 150px) {
-  button a, a a {
-    font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-  }
-}
-@media screen and (min-width: 640px) {
-  button a, a a {
-    font-family: "Montserrat", sans-serif;
-    font-size: 16px;
-  }
-}
-@media screen and (min-width: 1400px) {
-  button a, a a {
-    font-family: "Montserrat", sans-serif;
-    font-size: 19px;
-  }
-}
-
-@media screen and (min-width: 150px) {
-  .icon {
-    font-size: 14px;
-  }
-}
-@media screen and (min-width: 640px) {
-  .icon {
-    font-size: 14px;
-  }
-}
-@media screen and (min-width: 1400px) {
-  .icon {
-    font-size: 16px;
-  }
-}
-
 .board-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, 300px);
@@ -1891,18 +2030,22 @@ h4, h5 {
   margin-bottom: 10px;
 }
 
-/* ==========================================================================
-    VARIABLES
-   ========================================================================== */
 /* =========================================================================
 TYPOGRAPHY
  ========================================================================== */
+.App {
+  background-color: #272932;
+}
+
 /* ==========================================================================
     ESTRUCTURA SEGÚN IDIOMA
    ========================================================================== */
+.page_es {
+  background-color: #272932;
+}
 @media (max-width: 600px) {
   .page_es header {
-    box-shadow: 0px 4px 4px 0px rgba(29, 29, 27, 0.15);
+    -webkit-box-shadow: 0px 8px 12px -11px rgba(91, 115, 255, 0.525);
     width: 100vw;
     display: flex;
     flex-flow: wrap row;
@@ -1923,13 +2066,8 @@ TYPOGRAPHY
     width: auto;
     height: 2rem;
   }
-  .page_es header .imagotype .logotype {
-    display: none;
-    font-size: 1.7rem;
-    font-weight: 900;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #333333;
-    padding: 0 0 0 0.7rem;
+  .page_es header .imagotype .logotype .logoheader {
+    width: 9rem;
   }
   .page_es header .menu_icon {
     padding: 0;
@@ -1971,14 +2109,15 @@ TYPOGRAPHY
 }
 @media (min-width: 601px) {
   .page_es header {
-    box-shadow: 0px 4px 4px 0px rgba(29, 29, 27, 0.15);
+    -webkit-box-shadow: 0px 8px 12px -11px rgba(91, 115, 255, 0.525);
     width: 100vw;
     display: flex;
     flex-flow: wrap row;
+    gap: 1.5rem;
     justify-content: space-between;
     align-items: center;
     transition: 0.5s;
-    padding: 1.5rem 2.5rem 1.5rem 2.25rem;
+    padding: 1.5rem 2.25rem 1.5rem 2.25rem;
   }
   .page_es header .imagotype {
     width: 100%;
@@ -1994,7 +2133,7 @@ TYPOGRAPHY
     margin: 0 0 0 0rem;
   }
   .page_es header .imagotype .logoheader {
-    width: 3.5rem;
+    width: 11rem;
   }
   .page_es header .imagotype .logotype {
     display: flex;
@@ -2002,11 +2141,11 @@ TYPOGRAPHY
     font-size: 2.7rem;
     font-weight: 700;
     font-family: "Montserrat Alternates", sans-serif;
-    color: #5441ff;
+    color: #1C74D9;
     padding: 0 6rem 0 0.7rem;
   }
   .page_es header .imagotype span {
-    color: #ff9900;
+    color: #FF9900;
   }
   .page_es header .menu_icon .close {
     display: none;
@@ -2023,14 +2162,13 @@ TYPOGRAPHY
     justify-content: space-between;
     flex-wrap: nowrap;
     align-items: center;
-    padding: 1.6rem 0rem 0 0rem;
   }
   .page_es header .menu ul {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     font-size: 1.2rem;
-    gap: 1.2rem;
+    gap: 2rem;
   }
   .page_es header .lang_switcher {
     position: absolute;
@@ -2050,7 +2188,7 @@ TYPOGRAPHY
 }
 @media (min-width: 970px) {
   .page_es header .imagotype .logoheader {
-    width: 2.75rem;
+    width: 9rem;
   }
   .page_es header .imagotype .logotype {
     font-size: 1.7rem;
@@ -2076,13 +2214,13 @@ TYPOGRAPHY
   .page_es header .imagotype .logotype {
     font-size: 2.4rem;
   }
-  .page_es header .imagotype .isotype .logoheader {
-    width: 3.25rem;
+  .page_es header .imagotype .logotype .logoheader {
+    width: 11rem;
   }
 }
 @media (min-width: 150px) {
   .page_es .banner {
-    margin-top: 46px;
+    padding-top: 46px;
     height: 7.4em;
     background-image: url("/assets/img/headers/projects-banner-phone.svg");
     background-size: cover;
@@ -2098,12 +2236,12 @@ TYPOGRAPHY
     background-image: url("/assets/img/headers/publications-banner-phone.svg");
   }
   .page_es .parallax__layer {
-    margin-top: 74px;
+    padding-top: 74px;
   }
 }
 @media (min-width: 601px) {
   .page_es .banner {
-    margin-top: 112px;
+    padding-top: 112px;
     height: 14vw;
     width: 100%;
     background-image: url("/assets/img/headers/projects-banner-desktop.svg");
@@ -2112,31 +2250,34 @@ TYPOGRAPHY
     background-image: url("/assets/img/headers/publications-banner-desktop.svg");
   }
   .page_es .parallax__layer {
-    margin-top: 132px;
+    padding-top: 98px;
   }
 }
 @media (min-width: 970px) {
   .page_es .banner {
-    margin-top: 60px;
+    padding-top: 60px;
     height: 14vw;
   }
   .page_es .parallax__layer {
-    margin-top: 90px;
+    padding-top: 58px;
   }
 }
 @media (min-width: 1400px) {
   .page_es .banner {
-    margin-top: 72px;
+    padding-top: 72px;
     height: 14vw;
   }
   .page_es .head {
-    margin-top: 72px;
+    padding-top: 72px;
   }
 }
 
+.page_en {
+  background-color: #272932;
+}
 @media (max-width: 600px) {
   .page_en header {
-    box-shadow: 0px 4px 4px 0px rgba(29, 29, 27, 0.15);
+    -webkit-box-shadow: 0px 8px 12px -11px rgba(91, 115, 255, 0.525);
     width: 100vw;
     display: flex;
     flex-flow: wrap row;
@@ -2157,13 +2298,8 @@ TYPOGRAPHY
     width: auto;
     height: 2rem;
   }
-  .page_en header .imagotype .logotype {
-    display: none;
-    font-size: 1.7rem;
-    font-weight: 900;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #333333;
-    padding: 0 0 0 0.7rem;
+  .page_en header .imagotype .logotype .logoheader {
+    width: 9rem;
   }
   .page_en header .menu_icon {
     padding: 0;
@@ -2205,14 +2341,15 @@ TYPOGRAPHY
 }
 @media (min-width: 601px) {
   .page_en header {
-    box-shadow: 0px 4px 4px 0px rgba(29, 29, 27, 0.15);
+    -webkit-box-shadow: 0px 8px 12px -11px rgba(91, 115, 255, 0.525);
     width: 100vw;
     display: flex;
     flex-flow: wrap row;
+    gap: 1.5rem;
     justify-content: space-between;
     align-items: center;
     transition: 0.5s;
-    padding: 1.5rem 2.5rem 1.5rem 2.25rem;
+    padding: 1.5rem 2.25rem 1.5rem 2.25rem;
   }
   .page_en header .imagotype {
     width: 100%;
@@ -2228,7 +2365,7 @@ TYPOGRAPHY
     margin: 0 0 0 0rem;
   }
   .page_en header .imagotype .logoheader {
-    width: 3.5rem;
+    width: 11rem;
   }
   .page_en header .imagotype .logotype {
     display: flex;
@@ -2236,11 +2373,11 @@ TYPOGRAPHY
     font-size: 2.7rem;
     font-weight: 700;
     font-family: "Montserrat Alternates", sans-serif;
-    color: #5441ff;
+    color: #1C74D9;
     padding: 0 6rem 0 0.7rem;
   }
   .page_en header .imagotype span {
-    color: #ff9900;
+    color: #FF9900;
   }
   .page_en header .menu_icon .close {
     display: none;
@@ -2257,14 +2394,13 @@ TYPOGRAPHY
     justify-content: space-between;
     flex-wrap: nowrap;
     align-items: center;
-    padding: 1.6rem 0rem 0 0rem;
   }
   .page_en header .menu ul {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     font-size: 1.2rem;
-    gap: 1.2rem;
+    gap: 2rem;
   }
   .page_en header .lang_switcher {
     position: absolute;
@@ -2284,7 +2420,7 @@ TYPOGRAPHY
 }
 @media (min-width: 860px) {
   .page_en header .imagotype .logoheader {
-    width: 2.75rem;
+    width: 9rem;
   }
   .page_en header .imagotype .logotype {
     font-size: 1.7rem;
@@ -2310,13 +2446,13 @@ TYPOGRAPHY
   .page_en header .imagotype .logotype {
     font-size: 2.4rem;
   }
-  .page_en header .imagotype .isotype .logoheader {
-    width: 3.25rem;
+  .page_en header .imagotype .logotype .logoheader {
+    width: 11rem;
   }
 }
 @media (min-width: 150px) {
   .page_en .banner {
-    margin-top: 46px;
+    padding-top: 46px;
     height: 7.4em;
     background-image: url("/assets/img/headers/projects-banner-phone.svg");
     background-size: cover;
@@ -2332,12 +2468,12 @@ TYPOGRAPHY
     background-image: url("/assets/img/headers/publications-banner-phone.svg");
   }
   .page_en .parallax__layer {
-    margin-top: 74px;
+    padding-top: 44px;
   }
 }
 @media (min-width: 601px) {
   .page_en .banner {
-    margin-top: 112px;
+    padding-top: 112px;
     height: 14vw;
     width: 100%;
     background-image: url("/assets/img/headers/projects-banner-desktop.svg");
@@ -2346,25 +2482,25 @@ TYPOGRAPHY
     background-image: url("/assets/img/headers/publications-banner-desktop.svg");
   }
   .page_en .parallax__layer {
-    margin-top: 132px;
+    padding-top: 98px;
   }
 }
 @media (min-width: 860px) {
   .page_en .banner {
-    margin-top: 60px;
+    padding-top: 60px;
     height: 14vw;
   }
   .page_en .parallax__layer {
-    margin-top: 90px;
+    padding-top: 58px;
   }
 }
 @media (min-width: 1400px) {
   .page_en .banner {
-    margin-top: 72px;
+    padding-top: 72px;
     height: 14vw;
   }
   .page_en .head {
-    margin-top: 72px;
+    padding-top: 72px;
   }
 }
 
@@ -2375,12 +2511,24 @@ TYPOGRAPHY
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-wrap: balance;
 }
 *::-moz-selection {
-  background-color: #b0a7ff;
+  background-color: #6fa9ec;
 }
 *::selection {
-  background-color: #b0a7ff;
+  background-color: #6fa9ec;
+}
+
+li.li-selected a {
+  border-bottom: 2px solid #1C74D9;
+}
+li.li-selected a:hover {
+  border-bottom: 2px solid #1C74D9;
+}
+li a:hover {
+  color: inherit;
+  text-decoration: none;
 }
 
 body,
@@ -2427,7 +2575,7 @@ button {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #4d4d4d;
+  background: #3d404f;
 }
 
 /* Handle on hover */
@@ -2439,13 +2587,10 @@ button {
  HOME
  ========================================================================== */
 .home_page .border_nav_bar {
-  border-bottom: solid 1.5px white;
+  border-bottom: solid 1.5px #f8f8f9;
   transition: none;
 }
 
-.home h1 {
-  font-weight: 500;
-}
 .home .head {
   display: flex;
   justify-content: space-between;
@@ -2586,7 +2731,7 @@ button {
   @apply text-ca_blue-600;
   border-radius: 24px;
   padding: 0.5rem 1.2rem 0.7rem 1.4rem;
-  color: #3302bf;
+  color: #1C74D9;
   background: #dbe2ff;
   cursor: pointer;
   align-content: center;
@@ -2605,140 +2750,40 @@ button {
 /* ==========================================================================
  PROJECTS
  ========================================================================== */
-.projects {
-  background-color: white;
+.nav_bar {
+  /*---- Scroll Bar ----*/
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
   /*---- Scroll Bar ----*/
   /* Track */
   /* Handle */
   /* Handle on hover */
 }
-.projects .nav_bar .imagotype .logotype {
-  color: #5441ff;
-  font-weight: 700;
-  text-decoration: none;
-}
-.projects .nav_bar li.li-selected a {
-  border-bottom: 5px solid;
-}
-.projects .nav_bar li.li-selected a:hover {
-  border-bottom: 5px solid;
-}
-.projects .nav_bar li a:hover {
-  border-bottom: 5px dashed white;
-  text-decoration: none;
-  color: inherit;
-}
-.projects main .our_projects .project {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-  border-bottom: solid 1.5px #454545;
-  padding: 6rem 2rem 6rem 5rem;
-}
-.projects main .our_projects .project .project_logo {
-  width: 10%;
-  margin: 0.8rem 0 0 0;
-  filter: brightness(0) invert(1);
-  -webkit-filter: brightness(0) invert(1);
-}
-.projects main .our_projects .project .project_logo img {
-  -o-object-fit: contain;
-     object-fit: contain;
-  -o-object-position: top;
-     object-position: top;
-  width: 100%;
-  height: 100%;
-}
-.projects main .our_projects .project .project_main {
-  width: 70%;
-}
-.projects main .our_projects .project .project_main h2 {
-  font-weight: bold;
-}
-.projects main .our_projects .project .project_main a {
-  color: inherit;
-}
-.projects main .our_projects .project .project_main a:hover h2,
-.projects main .our_projects .project .project_main a:hover h3 {
-  color: pink;
-  transition: 0.5s;
-}
-.projects .border_nav_bar {
-  border-bottom: solid 1.5px #454545;
+.nav_bar .border_nav_bar {
+  border-bottom: solid 1.5px #373946;
   transition: none;
 }
-.projects ::-webkit-scrollbar-track {
+.nav_bar ::-webkit-scrollbar-track {
   background: #f1f1f1;
 }
-.projects ::-webkit-scrollbar-thumb {
+.nav_bar ::-webkit-scrollbar-thumb {
   background: pink;
 }
-.projects ::-webkit-scrollbar-thumb:hover {
+.nav_bar ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
-
-/* ==========================================================================
- TOOLS
- ========================================================================== */
-.tools {
-  background-color: white;
-  /*---- Scroll Bar ----*/
-  /* Track */
-  /* Handle */
-  /* Handle on hover */
-}
-.tools .nav_bar {
-  background-color: inherit;
-  color: inherit;
-}
-.tools .nav_bar .imagotype .isotype {
-  background-color: white;
-}
-.tools .nav_bar .imagotype .logotype {
-  font-weight: 700;
-  text-decoration: none;
-}
-.tools .nav_bar li.li-selected a {
-  border-bottom: 5px solid #ff9900;
-}
-.tools .nav_bar li.li-selected a:hover {
-  border-bottom: 5px solid #ff9900;
-}
-.tools .nav_bar li a:hover {
-  border-bottom: 5px dashed white;
-  text-decoration: none;
-  color: inherit;
-}
-.tools main .our_tools {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-.tools main .our_tools .tool_main {
-  width: 70%;
-}
-.tools main .our_tools .tool_main h2 {
-  @apply text-ca_blue-900;
-}
-.tools main .our_tools .tool_main h3 {
-  font-size: 14px;
-  font-weight: 500;
-}
-.tools main .our_tools .tool_main .button_container {
-  display: flex;
-  justify-content: flex-end;
-}
-.tools .border_nav_bar {
-  border-bottom: solid 1.5px #454545;
+.nav_bar .border_nav_bar {
+  border-bottom: solid 1.5px #373946;
   transition: none;
 }
-.tools ::-webkit-scrollbar-track {
+.nav_bar ::-webkit-scrollbar-track {
   background: #f1f1f1;
 }
-.tools ::-webkit-scrollbar-thumb {
+.nav_bar ::-webkit-scrollbar-thumb {
   background: pink;
 }
-.tools ::-webkit-scrollbar-thumb:hover {
+.nav_bar ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
 
@@ -2748,48 +2793,6 @@ button {
 .research main {
   display: flex;
   flex-direction: column;
-}
-
-.research {
-  color: inherit;
-}
-.research li.li-selected a {
-  border-bottom: 5px solid #5441ff;
-}
-.research li.li-selected a:hover {
-  border-bottom: 5px solid #5441ff;
-}
-.research li a:hover {
-  color: inherit;
-  text-decoration: none;
-}
-
-.courses {
-  color: inherit;
-}
-.courses li.li-selected a {
-  border-bottom: 5px solid #becaff;
-}
-.courses li.li-selected a:hover {
-  border-bottom: 5px solid #becaff;
-}
-.courses li a:hover {
-  color: inherit;
-  text-decoration: none;
-}
-
-.about {
-  color: inherit;
-}
-.about li.li-selected a {
-  border-bottom: 5px solid #ffbd1b;
-}
-.about li.li-selected a:hover {
-  border-bottom: 5px solid #ffbd1b;
-}
-.about li a:hover {
-  color: inherit;
-  text-decoration: none;
 }
 
 /* =========================================================================
@@ -2841,9 +2844,6 @@ RESPONSIVE
     display: flex;
     flex-flow: column;
     align-items: center;
-  }
-  .home .head .group_description {
-    width: 100%;
   }
   .home .body .carousel h3 {
     font-size: 1.5rem;
@@ -3085,8 +3085,8 @@ h4, h5 {
     border: none;
     background: none;
     border: 1px solid white;
-    border-radius: 24px;
-    padding: 0.3rem 1rem 0.4rem 0.8rem;
+    border-radius: 4px;
+    padding: 0.6rem 1rem 0.8rem 0.8rem;
     color: white;
     transition: 200ms ease-in-out;
   }
@@ -3095,7 +3095,7 @@ h4, h5 {
   }
   .card_container_top .course_route svg {
     align-self: center;
-    margin-right: 0.6rem;
+    margin-left: 0.6rem;
   }
   .card_container_top .course_route:hover {
     background: white;
@@ -3169,6 +3169,9 @@ h4, h5 {
   }
 }
 @media (min-width: 1400px) {
+  .course {
+    height: 300px;
+  }
   .course .course_text_block {
     max-width: 100rem;
   }
@@ -3487,8 +3490,8 @@ h4, h5 {
     background: none;
   }
   .tools .tool .tool_content .tool_button_container .tool_button a {
-    border: 1px solid #4f1be4;
-    color: #4f1be4;
+    border: 1px solid #1C74D9;
+    color: #1C74D9;
     border-radius: 24px;
     padding: 0.5rem 1.2rem 0.7rem 1.4rem;
     transition: 200ms ease-in-out;
@@ -3500,12 +3503,12 @@ h4, h5 {
   .tools .tool .tool_content .tool_button_container .tool_button a:hover {
     color: white;
     transition: 200ms ease-in-out;
-    background-color: #5441ff;
+    background-color: #1C74D9;
   }
   .tools .tool .tool_content .tool_button_container .tool_button a:active {
     color: white;
     transition: 200ms ease-in-out;
-    background-color: #5441ff;
+    background-color: #1C74D9;
   }
   .tools .tool .tool_content .tool_button_container .tool_button svg {
     display: none;
@@ -3545,8 +3548,8 @@ h4, h5 {
     justify-content: left;
   }
   .tools .tool .tool_content .tool_button_container .tool_button a {
-    border: 1px solid #4f1be4;
-    color: #4f1be4;
+    border: 1px solid #1C74D9;
+    color: #1C74D9;
     border-radius: 24px;
     padding: 0.5rem 1.2rem 0.7rem 1.4rem;
     transition: 200ms ease-in-out;
@@ -3558,12 +3561,12 @@ h4, h5 {
   .tools .tool .tool_content .tool_button_container .tool_button a:hover {
     color: white;
     transition: 200ms ease-in-out;
-    background-color: #5441ff;
+    background-color: #1C74D9;
   }
   .tools .tool .tool_content .tool_button_container .tool_button a:active {
     color: white;
     transition: 200ms ease-in-out;
-    background-color: #5441ff;
+    background-color: #1C74D9;
   }
   .tools .tool .tool_content .tool_button_container .tool_button svg {
     display: flex;
@@ -3589,8 +3592,8 @@ h4, h5 {
     justify-content: left;
   }
   .tools .tool .tool_content .tool_button_container .tool_button a {
-    border: 1px solid #4f1be4;
-    color: #4f1be4;
+    border: 1px solid #1C74D9;
+    color: #1C74D9;
     border-radius: 24px;
     padding: 0.5rem 1.2rem 0.7rem 1.4rem;
     transition: 200ms ease-in-out;
@@ -3602,12 +3605,12 @@ h4, h5 {
   .tools .tool .tool_content .tool_button_container .tool_button a:hover {
     color: white;
     transition: 200ms ease-in-out;
-    background-color: #5441ff;
+    background-color: #1C74D9;
   }
   .tools .tool .tool_content .tool_button_container .tool_button a:active {
     color: white;
     transition: 200ms ease-in-out;
-    background-color: #5441ff;
+    background-color: #1C74D9;
   }
   .tools .tool .tool_content .tool_button_container .tool_button svg {
     display: flex;
@@ -3655,8 +3658,8 @@ h4, h5 {
     justify-content: left;
   }
   .tools .tool .tool_content .tool_button_container .tool_button a {
-    border: 1px solid #4f1be4;
-    color: #4f1be4;
+    border: 1px solid #1C74D9;
+    color: #1C74D9;
     border-radius: 24px;
     padding: 0.5rem 1.2rem 0.7rem 1.4rem;
     transition: 200ms ease-in-out;
@@ -3668,12 +3671,12 @@ h4, h5 {
   .tools .tool .tool_content .tool_button_container .tool_button a:hover {
     color: white;
     transition: 200ms ease-in-out;
-    background-color: #5441ff;
+    background-color: #1C74D9;
   }
   .tools .tool .tool_content .tool_button_container .tool_button a:active {
     color: white;
     transition: 200ms ease-in-out;
-    background-color: #5441ff;
+    background-color: #1C74D9;
   }
   .tools .tool .tool_content .tool_button_container .tool_button svg {
     display: flex;
@@ -3715,8 +3718,8 @@ h4, h5 {
     gap: 0.3rem;
   }
   .tools .tool .tool_content .tool_button_container .tool_button a {
-    border: 1px solid #4f1be4;
-    color: #4f1be4;
+    border: 1px solid #1C74D9;
+    color: #1C74D9;
     border-radius: 24px;
     padding: 0.5rem 1.2rem 0.7rem 1.4rem;
     transition: 200ms ease-in-out;
@@ -3727,12 +3730,12 @@ h4, h5 {
   .tools .tool .tool_content .tool_button_container .tool_button a:hover {
     color: white;
     transition: 200ms ease-in-out;
-    background-color: #5441ff;
+    background-color: #1C74D9;
   }
   .tools .tool .tool_content .tool_button_container .tool_button a:active {
     color: white;
     transition: 200ms ease-in-out;
-    background-color: #5441ff;
+    background-color: #1C74D9;
   }
   .tools .tool .tool_content .tool_button_container .tool_button svg {
     display: none;
@@ -3762,8 +3765,8 @@ h4, h5 {
     justify-content: left;
   }
   .tools .tool .tool_content .tool_button_container .tool_button a {
-    border: 1px solid #4f1be4;
-    color: #4f1be4;
+    border: 1px solid #1C74D9;
+    color: #1C74D9;
     border-radius: 24px;
     padding: 0.5rem 1.2rem 0.7rem 1.4rem;
     transition: 200ms ease-in-out;
@@ -3775,12 +3778,12 @@ h4, h5 {
   .tools .tool .tool_content .tool_button_container .tool_button a:hover {
     color: white;
     transition: 200ms ease-in-out;
-    background-color: #5441ff;
+    background-color: #1C74D9;
   }
   .tools .tool .tool_content .tool_button_container .tool_button a:active {
     color: white;
     transition: 200ms ease-in-out;
-    background-color: #5441ff;
+    background-color: #1C74D9;
   }
   .tools .tool .tool_content .tool_button_container .tool_button svg {
     display: flex;
@@ -3860,7 +3863,7 @@ h4, h5 {
     border: none;
     border-radius: 24px;
     padding: 0.5rem 1.2rem 0.7rem 1.4rem;
-    color: #3302bf;
+    color: #1C74D9;
     background: #dbe2ff;
     cursor: pointer;
   }
@@ -3874,7 +3877,7 @@ h4, h5 {
     text-align: left;
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 16px;
+    padding-bottom: 48px;
     border-bottom: solid 1px #dbe2ff;
     justify-content: left;
   }
@@ -3888,7 +3891,7 @@ h4, h5 {
     padding-right: 1.6rem;
     margin-bottom: 0.4rem;
     line-height: 120%;
-    color: #5441ff;
+    color: #1C74D9;
   }
   .filters .filter select,
   .filters .filter input {
@@ -3897,11 +3900,11 @@ h4, h5 {
     width: 100%;
     height: 3.2rem;
     background-color: white;
-    border: 1px solid #5441ff;
+    border: 1px solid #1C74D9;
     border-radius: 4px;
     background-color: white;
-    font-family: "montserrat", sans-serif;
-    color: #5441ff;
+    font-family: "Archivo";
+    color: #1C74D9;
   }
   .filters .filter select:focus,
   .filters .filter input:focus {
@@ -3937,7 +3940,7 @@ h4, h5 {
     outline: none;
   }
   .filters .filter select option {
-    color: #4f1be4;
+    color: #1C74D9;
     padding: 0 0.3rem 3rem 0.3rem;
   }
   .filters .filter #year {
@@ -3998,11 +4001,11 @@ h4, h5 {
   }
   .papers .paper_link svg {
     align-self: center;
-    margin-left: 0.6rem;
+    margin-right: 0.6rem;
   }
   .papers .paper_link a {
-    border: 1px solid #4f1be4;
-    color: #4f1be4;
+    border: 1px solid #1C74D9;
+    color: #1C74D9;
     border-radius: 24px;
     padding: 0.5rem 1.2rem 0.7rem 1.4rem;
     transition: 200ms ease-in-out;
@@ -4015,12 +4018,12 @@ h4, h5 {
   .papers .paper_link a:hover {
     color: white;
     transition: 200ms ease-in-out;
-    background-color: #5441ff;
+    background-color: #1C74D9;
   }
   .papers .paper_link a:active {
     color: white;
     transition: 200ms ease-in-out;
-    background-color: #5441ff;
+    background-color: #1C74D9;
   }
 }
 @media (min-width: 640px) {
@@ -4029,7 +4032,7 @@ h4, h5 {
     display: flex;
     flex-wrap: wrap;
     gap: 4px;
-    padding-bottom: 16px;
+    padding-bottom: 48px;
     border-bottom: solid 1px #ebf0ff;
     justify-content: space-between;
   }
@@ -4056,10 +4059,10 @@ h4, h5 {
     gap: 8px;
     display: flex;
     flex-direction: column;
-    padding: 8px 0 16px 0;
+    padding: 16px 0 32px 0;
   }
   .papers .paper {
-    padding: 6px 0 16px 0;
+    padding: 16px 0 32px 0;
   }
   .papers .paper_main {
     display: flex;
@@ -4124,113 +4127,119 @@ h4, h5 {
 }
 @media screen and (min-width: 150px) {
   h1 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 28px;
     line-height: 140%;
     margin-bottom: 1rem;
+    font-weight: 300;
   }
 }
 @media screen and (min-width: 640px) {
   h1 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 36px;
     line-height: 140%;
     margin-bottom: 1rem;
+    font-weight: 300;
   }
 }
 @media screen and (min-width: 1400px) {
   h1 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 42px;
     line-height: 140%;
     margin-bottom: 1rem;
+    font-weight: 300;
   }
 }
 
 @media screen and (min-width: 150px) {
   h2 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 25px;
+    font-family: "Archivo", sans-serif;
+    font-size: 23px;
     line-height: 140%;
     margin-bottom: 1rem;
+    font-weight: 300;
   }
 }
 @media screen and (min-width: 640px) {
   h2 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 30px;
     line-height: 140%;
     margin-bottom: 1rem;
+    font-weight: 300;
   }
 }
 @media screen and (min-width: 1400px) {
   h2 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 36px;
     line-height: 140%;
     margin-bottom: 1rem;
+    font-weight: 300;
   }
 }
 
 @media screen and (min-width: 150px) {
   h3 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 22px;
     line-height: 140%;
     margin-bottom: 1rem;
-    font-weight: 600;
+    font-weight: 400;
   }
 }
 @media screen and (min-width: 640px) {
   h3 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 26px;
     line-height: 140%;
     margin-bottom: 1rem;
-    font-weight: 600;
+    font-weight: 400;
   }
 }
 @media screen and (min-width: 1400px) {
   h3 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 30px;
     line-height: 140%;
     margin-bottom: 1rem;
-    font-weight: 600;
+    font-weight: 400;
   }
 }
 
 @media screen and (min-width: 150px) {
   h4 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 18px;
     line-height: 140%;
     margin-bottom: 1rem;
-    font-weight: 600;
+    font-weight: 400;
   }
 }
 @media screen and (min-width: 640px) {
   h4 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 20px;
     line-height: 140%;
     margin-bottom: 1rem;
-    font-weight: 600;
+    font-weight: 400;
   }
 }
 @media screen and (min-width: 1400px) {
   h4 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 24px;
+    font-family: "Archivo", sans-serif;
+    font-size: 22px;
     line-height: 140%;
     margin-bottom: 1rem;
-    font-weight: 600;
+    font-weight: 400;
   }
 }
 
 @media screen and (min-width: 150px) {
   h5 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 16px;
     line-height: 140%;
     margin-bottom: 1rem;
@@ -4238,7 +4247,7 @@ h4, h5 {
 }
 @media screen and (min-width: 640px) {
   h5 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 18px;
     line-height: 140%;
     margin-bottom: 1rem;
@@ -4246,8 +4255,8 @@ h4, h5 {
 }
 @media screen and (min-width: 1400px) {
   h5 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 22px;
+    font-family: "Archivo", sans-serif;
+    font-size: 20px;
     line-height: 140%;
     margin-bottom: 1rem;
   }
@@ -4255,43 +4264,43 @@ h4, h5 {
 
 @media screen and (min-width: 150px) {
   p, label, input, select {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 14px;
     line-height: 140%;
   }
 }
 @media screen and (min-width: 640px) {
   p, label, input, select {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 16px;
     line-height: 140%;
   }
 }
 @media screen and (min-width: 1400px) {
   p, label, input, select {
-    font-family: "Montserrat", sans-serif;
-    font-size: 19px;
+    font-family: "Archivo", sans-serif;
+    font-size: 18px;
     line-height: 140%;
   }
 }
 
 @media screen and (min-width: 150px) {
   small {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 14px;
     line-height: 140%;
   }
 }
 @media screen and (min-width: 640px) {
   small {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 13px;
     line-height: 140%;
   }
 }
 @media screen and (min-width: 1400px) {
   small {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 16px;
     line-height: 140%;
   }
@@ -4299,21 +4308,21 @@ h4, h5 {
 
 @media screen and (min-width: 150px) {
   .xs-text {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 14px;
     line-height: 140%;
   }
 }
 @media screen and (min-width: 640px) {
   .xs-text {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 13px;
     line-height: 140%;
   }
 }
 @media screen and (min-width: 1400px) {
   .xs-text {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 16px;
     line-height: 140%;
   }
@@ -4321,38 +4330,44 @@ h4, h5 {
 
 @media screen and (min-width: 150px) {
   button, a {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 14px;
+    font-weight: 300;
   }
 }
 @media screen and (min-width: 640px) {
   button, a {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 16px;
+    font-weight: 300;
   }
 }
 @media screen and (min-width: 1400px) {
   button, a {
-    font-family: "Montserrat", sans-serif;
-    font-size: 19px;
+    font-family: "Archivo", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
   }
 }
 @media screen and (min-width: 150px) {
   button a, a a {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 14px;
+    font-weight: 300;
   }
 }
 @media screen and (min-width: 640px) {
   button a, a a {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 16px;
+    font-weight: 300;
   }
 }
 @media screen and (min-width: 1400px) {
   button a, a a {
-    font-family: "Montserrat", sans-serif;
-    font-size: 19px;
+    font-family: "Archivo", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
   }
 }
 

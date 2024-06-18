@@ -2,6 +2,7 @@
 @import "../lib/_mixins.sass"
     
 @media (min-width: 150px)
+
     .home
         h3
             @apply text-ca_blue-700
@@ -12,15 +13,34 @@
             width:80%
             @apply text-gray-800
     .group_description 
-        //width: 100vw
+        z-index:100
         .logo_home
-            height: 3.5rem
-
+            width: 60vw
+            max-width: 300px
+            height: auto
+        //logo
         img
             width:100%
             height:26.2vw
+            z-index:0
             object-fit: cover
             object-position: 50% 0
+    // .banner_f4d
+    //     width: 100vw
+    //     height:30vh
+    //     position: absolute
+    .banner_f4d_img
+        // width:100%
+        position: absolute
+        width: 100%
+        height: 50vh
+        //scale:1.5
+        opacity: 45%
+        z-index:0
+        background-image: url("/assets/img/banner_prov.svg")
+        margin: -6vh 0 0
+        background-size: cover
+        background-position: 70% 0
     .award_section 
         display: flex
         margin: $spacing_xl auto
@@ -74,7 +94,7 @@
       
 
 
-@media (min-width: 600px)
+@media (min-width: 640px)
     .award_section
         width:85%
         padding: 1.5rem 2rem 1rem 2rem
@@ -87,11 +107,22 @@
         width: 100vw
         .logo_home
             height: 4rem
+            width: auto
         img
             width: auto
             height: 25rem
             object-fit: cover
             object-position: 50% 0
+    // .banner_f4d
+    //     position: relative
+    .banner_f4d_img
+        position: relative
+        height: 27vw
+        //height: 28.8vw
+        opacity: 100%
+        z-index:0
+        //background-size: cover
+        background-position: 100% 0
 @media (min-width: 900px)
     .award_section
         flex-direction: row

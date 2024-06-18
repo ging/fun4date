@@ -17,12 +17,12 @@ export default function Header(props) {
   const currentLang = i18n.language;
 
   const routes = [
-    { route: "/research", key: "nav.item" },
-    { route: "/courses", key: "nav.item2" },
-    { route: "/tools", key: "nav.item3" },
-    { route: "/projects", key: "nav.item4" },
-    { route: "/team", key: "nav.item5" },
-    { route: "/about", key: "nav.item6" },
+    { route: "/", key: "nav.item1" },
+    { route: "/project", key: "nav.item2" },
+    { route: "/team", key: "nav.item3" },
+    { route: "/research", key: "nav.item4" },
+    { route: "/about", key: "nav.item5" },
+   
   ];
   console.log(props.route);
 

@@ -188,12 +188,19 @@
         .isotype
             
 @mixin li_nav_bar
-  li 
-    &.li-selected 
-      a 
-        border-bottom: $border1 $ca-or-100
-        &:hover 
-          border-bottom: $border1 $ca-or-100
+    li 
+        a 
+            &:hover 
+                border-bottom: $border1 $link_header   
+                text-decoration: none
+        &.li-selected 
+            a 
+                color: $link_header
+                border-bottom: $border1 $link_header
+                &:hover 
+                    border-bottom: $border1 $link_header
+       
+
 //ES
 @mixin nav_bar_es
     @media (max-width: $max-phone-width-es) 

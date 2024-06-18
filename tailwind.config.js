@@ -14,6 +14,8 @@ module.exports = {
       },
       colors: {
         primary: "#5441FF",
+        secondary: "#393D49",
+        link_header: "#9ECBFF",
         accent: "#5340FF",
         black: "#272932",
         white: "#FAFBFF",
