@@ -79,13 +79,13 @@
                 font-family: $main_font
                 @apply text-gray-200 bg-gray-800 border border-gray-400
                 &:focus
-                    @apply text-gray-700
-                    border: $ca-blue-500 solid 1px
-                    filter: drop-shadow(0 0 0.5rem $ca-blue-300)               
+                    @apply text-gray-500
+                    border: $ffd-blue-500 solid 1px
+                    // filter: drop-shadow(0 0 0.5rem $ca-blue-300)               
                 &:focus-within
-                    @apply text-gray-700
-                    border: $ca-blue-500  solid 1px
-                    filter: drop-shadow(0 0 0.5rem $ca-blue-300)
+                    @apply text-gray-500
+                    border: $ffd-blue-500  solid 1px
+                    // filter: drop-shadow(0 0 0.5rem $ca-blue-300)
                     outline: none
                 &:focus-visible
                     outline: none
@@ -97,11 +97,11 @@
                 
             
                 &:focus
-                    border: $ca-blue-500 solid 1px
-                    filter: drop-shadow(0 0 0.2rem $ca-blue-300)
+                    border: $ffd-blue-500 solid 1px
+                    // filter: drop-shadow(0 0 0.2rem $ca-blue-300)
                 &:focus-within
-                    border: $ca-blue-500  solid 1px
-                    filter: drop-shadow(0 0 0.5rem $ca-blue-300)
+                    border: $ffd-blue-500  solid 1px
+                    // filter: drop-shadow(0 0 0.5rem $ca-blue-300)
                     outline: none
                 &:focus-visible
                     outline: none
@@ -134,10 +134,18 @@
             
             .paper_date
                 display: flex
-                border-right: 2px solid red 
+                border-width: 4px
+                border-style: solid
+                border-right-width: 4px
+                border-left-width: 0px
+                border-top-width: 0px
+                border-bottom-width: 0px
+                // border-right: 3px solid red 
+                -webkit-border-image: -webkit-gradient(linear, 0% 0%, 0% 0%, from(rgba(152, 206, 9, 1)), to(rgba(152, 206, 0, 0))) 1 100%
+
                 p
                     // @include border-tag
-                    @apply text-gray-400
+                    @apply text-gray-400 px-4
                     font-size: 2.5rem
                     font-weight: 400
                     display: block
@@ -146,7 +154,7 @@
 
 
             .paper_title 
-                @apply text-gray-100
+                @apply text-ffdGreen-300
 
             .paper_subtitle 
                 //padding-bottom: $spacing_md
@@ -214,6 +222,16 @@
             justify-content: left
             gap: $spacing_md
             .paper_date
+                display: flex
+                border-width: 4px
+                border-style: solid
+                border-right-width: 4px
+                border-left-width: 0px
+                border-top-width: 0px
+                border-bottom-width: 0px
+                // border-right: 3px solid red 
+                -webkit-border-image: -webkit-gradient(linear, 0% 0%, 0% 0%, from(rgba(152, 206, 9, 1)), to(rgba(152, 206, 0, 0))) 1 100%
+
                 h5
                     @include border-tag
                 
@@ -271,5 +289,47 @@
         .papers
             .paper
                 .paper_main
+                    .paper_date
+                        display: flex
+                        border-width: 4px
+                        border-style: solid
+                        border-right-width: 4px
+                        border-left-width: 0px
+                        border-top-width: 0px
+                        border-bottom-width: 0px
+                        // border-right: 3px solid red 
+                        -webkit-border-image: -webkit-gradient(linear, 0% 0%, 0% 0%, from(rgba(152, 206, 9, 1)), to(rgba(152, 206, 0, 0))) 1 100%
+
                     .paper_content 
                         width:70%
+@media (max-width: 640px)
+            .papers
+            .paper
+                .paper_main
+                    .paper_date
+                        display: flex
+                        border-width: 4px
+                        border-style: solid
+                        border-right-width: 0px
+                        border-left-width: 4px
+                        border-top-width: 0px
+                        border-bottom-width: 0px
+                        // border-right: 3px solid red 
+                        -webkit-border-image: -webkit-gradient(linear, 0% 0%, 0% 0%, from(rgba(152, 206, 9, 1)), to(rgba(152, 206, 0, 0))) 1 100%
+                .button_container
+                    display: flex
+                    justify-content: end
+                    .paper_link
+                        @include button
+                        display: flex
+                        flex-direction: row
+                        //gap: $spacing_xsm
+                        align-content: flex-end
+                        justify-content: flex-end
+                        flex-wrap: wrap
+                        margin: 0
+                        p 
+                            font-weight: 600
+                            margin: 0
+                        a
+                            display: flex
