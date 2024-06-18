@@ -31,27 +31,26 @@ export default function Home() {
         <div className="parallax__layer parallax__layer--base">
           <main>
             <section className="home">
-              <div className="head block sm:flex sm:flew-row">
-                <div className="group_description block sm:block  sm:justify-between md:gap-8 sm:items-center ">
+              <div className="head block sm:flex sm:flew-row items-center mt-4 sm:mt-6 md:mt-8 lg-mt-10 2xl:mt-14">
+                <div className="group_description flex flex-col gap-4 sm:justify-center md:gap-8 sm:items-center mx-8 sm:mx-8 md:ml-12 lg:ml-16 xl:ml-20 2xl:ml-24 sm:w-2/5">
                   <img
-                    className="logo_home mt-4 sm:mt-0"
+                    className="logo_home mt-4 sm:mt-0 self-start"
                     src="/assets/img/iso_logo.svg"
                   />
-                  <h2 className="text-white mx-4 sm:mx-8 md:ml-12 lg:ml-16 xl:ml-20 2xl:ml-24">
-                    <b>{t("front.title")}, </b>
-                    {t("front.title2")}
+                  <h2 className="text-white self-start">
+                    {t("front.title")}
+               
                   </h2>
-                  <button className="action_button">
+                  <button className="action_button self-start">
                     <Link rel="noopener noreferrer" target="_blank" href="#">
                       <span>{t("front.action-button")}</span>
                       <FontAwesomeIcon icon={faArrowRight} />
                     </Link>
                   </button>
                 </div>
-                <img
-                  className="mt-4 sm:mt-0 w-1/2"
-                  src="/assets/img/banner_prov.svg"
-                />
+                  <div
+                    className="banner_f4d_img sm:mt-0 sm:w-3/5"
+                  />
               </div>
 
               <div className="body lg:mx-36 md:mx-14 sm:mx-8 mx-4 lg:my-12 md:my-8 sm:my-4 my-4 xl:mx-44 2xl:mx-60">

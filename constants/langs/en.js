@@ -1,18 +1,16 @@
 export const en = {
     "nav":{
-        "item":"Publications",
-        "item2":"Courses",
-        "item3":"Tools",
-        "item4":"Projects",
-        "item5":"Team",
-        "item6":"Contact",
+        "item1":"Home",
+        "item2":"The project",
+        "item3":"Team",
+        "item4":"Research",
+        "item5":"Contact",
     },
     "header": {
         "publicationstab": "Publications",
     },
     "front": {
         "title": "Future Networks for Datacenters and Telcos",
-        "title2": "",
         "action-button": "About the project",
         "awardH2":"EIG AWARDED IN 2017",
         "awardTitle": "Award to the educational innovation groups",
@@ -93,11 +91,11 @@ export const en = {
     },
     "footer": {
         "title1":"sections",
-        "title2": "social media",
-        "logoSub": "Innovative educational Group ",
-        "logoSub2": "Politechnic University of Madrid",
-        "titleRight": "Department of Telematic Systems Engineering",
-        "titleRight2": "H.T.S telecommunication engineering",
+        "title2": "Project funded by:",
+        "title3": "Partners:",
+        "logoSub": "Future Networks for Datacenters and Telcos",
+        "titleRight": "Future Networks for Datacenters and Telcos (FuN4DaTe)  © 2024. All rights reserved.",
+        "titleRight2": "",
     },
     "tools":{
         "title":"Tools",

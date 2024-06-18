@@ -15,38 +15,38 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { useTranslation } from "react-i18next";
 
-
 export default function Footer(props) {
   const { t } = useTranslation();
   const routes = [
-    { route: "/research", key: 'nav.item' },
-    { route: "/courses", key: 'nav.item2' },
-    { route: "/tools", key: 'nav.item3' },
-    { route: "/projects", key: 'nav.item4' },
-    { route: "/team", key: 'nav.item5' },
-    { route: "/about", key: 'nav.item6' },
+    { route: "/research", key: "nav.item" },
+    { route: "/courses", key: "nav.item2" },
+    { route: "/tools", key: "nav.item3" },
+    { route: "/projects", key: "nav.item4" },
+    { route: "/team", key: "nav.item5" },
+    { route: "/about", key: "nav.item6" },
   ];
   return (
     <footer>
-      <div className="footer_left md:mb-0 mb-8">
-        <div className="footer_title">
-          <h1>CyberAula</h1>
-        </div>
-        <div className="footer_subtitle">
-          <h5 className="font-medium">
-          {t('footer.logoSub')}<br></br>
-          {t('footer.logoSub2')}
-          </h5>
-        </div>
-        <div className="flex">
+      <div className="container_line_1">
+        <div className="footer_left ">
+          <div className="footer_title">
+            <h1>FuN4DaTe</h1>
+          </div>
+          <div className="footer_subtitle">
+            <h5 className="font-medium">
+              {t("footer.logoSub")}
+              <br></br>
+            </h5>
+          </div>
+          {/*}  <div className="flex">
           <FontAwesomeIcon className="mr-3" icon={faEnvelope} size="lg" />{" "}
           <div className="footer_email"> enrique.barra@upm.es</div>
+        </div>*/}
         </div>
-      </div>
 
-      <div className="footer_mid_1 md:mb-0 mb-8">
-        {" "}
-        <nav>
+        
+          {" "}
+          {/*<nav>
           <ul>
             <li className="sections_title smallcaps text-left mb-4">
               {t("footer.title1")}
@@ -66,10 +66,38 @@ export default function Footer(props) {
               </li>
             ))}
           </ul>
-        </nav>
-      </div>
+        </nav>  */}
+   
+        <div className="footer_mid">
+          <div className="footer_img_container_funder">
+            <p>{t("footer.title2")}</p>
+            <img
+           
+              src="/assets/img/footer/financiador.png"
+              alt="logo"
+            />
+          </div>
+        </div>
+        <div className="footer_mid">
+          <div className="footer_img_container_partners">
+            <p>{t("footer.title3")}</p>
+            <div>
+              <img
+            
+                src="/assets/img/footer/UC3M-logo.png"
+                alt="logo"
+              />
+              <img
+            
+                src="/assets/img/footer/UPM-logo.png"
+                alt="logo"
+              />
+            </div>
+          </div>
+        </div>
+        {/*
       <div className="footer_mid_2">
-        <div className="socials">
+       <div className="socials">
           <div className="socials_title smallcaps mb-4 text-left">
             {t("footer.title2")}
           </div>
@@ -107,43 +135,29 @@ export default function Footer(props) {
           </ul>
         </div>
       </div>
-
-      <div className="footer_right md:max-w-64 size-full">
-        <div className="copyright">
-          {" "}
-          <ul>
-            <li className="md:mb-4 mb-2">2024 &copy;</li>
-            <li className="md:mb-4 mb-2">
-              <a
-                className="font-normal text-base"
-                rel="noopener noreferrer"
-                href="http://www.dit.upm.es/"
-                target="_blank"
-              >
-                {t('footer.titleRight')}
-              </a>
-            </li>
-            <li className="md:mb-4 mb-2">
-              <a
-                className="font-normal text-base"
-                rel="noopener noreferrer"
-                href="http://www.etsit.upm.es/de.html"
-                target="_blank"
-              >
-                {t('footer.titleRight2')}
-              </a>
-            </li>
-            <li>
-              <a
-                className="font-normal text-base"
-                rel="noopener noreferrer"
-                href="http://www.upm.es/internacional"
-                target="_blank"
-              >
-                UPM
-              </a>
-            </li>
-          </ul>
+*/}
+      </div>
+      <div>
+        <div className="footer_right size-full">
+          <div className="copyright">
+            {" "}
+                <a
+                  className="font-normal text-base"
+                  rel="noopener noreferrer"
+                  href="http://www.dit.upm.es/"
+                  target="_blank"
+                >
+                  {t("footer.titleRight")}
+                </a>
+                <a
+                  className="font-normal text-base"
+                  rel="noopener noreferrer"
+                  href="http://www.etsit.upm.es/de.html"
+                  target="_blank"
+                >
+                 
+                </a>
+          </div>
         </div>
       </div>
     </footer>
