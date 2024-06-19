@@ -17,18 +17,26 @@
     svg 
         align-self: center
         margin-right: 0.6rem
-
-
+@mixin  link-button
+    @include button
+    border: none
+    @apply text-gray-100 
+    &:hover
+        color: white
+        transition: 200ms ease-in-out
+        @apply text-ffdGreen-300
+        text-decoration: underline
+        text-decoration-thickness: 1px
 @mixin button-load-more
     @include button
-    border-radius: 24px
+    font-size: $button
     padding: 0.5rem 1.2rem 0.7rem 1.4rem
-    color: $ca-blue-600
-    background: $ca-blue-200
+    background: transparent
+    @apply text-gray-100
     cursor: pointer
     &:hover
-        background: $ca-blue-300
-        color: $ca-blue-700
+        @apply bg-gray-100 text-black
+         font-size: $xl-text
         transition: 200ms ease-in-out
 
 @mixin border-button-white
@@ -57,16 +65,16 @@
         background-color: $ca-blue-600
 
 @mixin button-load-more
-    border-radius: 24px
+    border: 1px solid $gray-100
     padding: 0.5rem 1.2rem 0.7rem 1.4rem
-    color: $ca-blue-900
-    background: $ca-blue-200
+    
+    @apply bg-transparent text-gray-100 border border-gray-100
     cursor: pointer
     &:hover
-        background: $ca-blue-300
-        color: #0e1131
-        background: $ca-blue-300
+        @apply bg-gray-100 text-black border border-gray-100
+       
         transition: 200ms ease-in-out
+        
 
 @mixin invisible-button
     @include button

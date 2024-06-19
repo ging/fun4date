@@ -78,20 +78,20 @@ export default function Research() {
   return (
     <div className={"research page_" + currentLang}>
       <Header route={"/research"} />
-      <div
-        className="banner px-4 sm:px-8 md:px-14 md:py-2 lg:px-24 lg:py-4 xl:px-28 xl:py-4 2xl:px-32 2xl:py-6"
-        id="banner-publications"
-      >
-        <h1>{t("publications.title")}</h1>
-        <p>
-          Este apartado es una recopilación de las publicaciones del equipo de
-          la UPM y de la UC3M. Las publicaciones de la UPM están centrados en el
-          tema de computación bla bla bla etc y los de la UC3M se centran en
-          sistemas de redes de no se cuantitos.
-        </p>
-      </div>
 
       <main>
+        <div
+          className="banner px-4 sm:px-8 md:px-14 md:py-2 lg:px-24 lg:py-4 xl:px-28 xl:py-4 2xl:px-32 2xl:py-6"
+          id="banner-publications"
+        >
+          <h1>{t("publications.title")}</h1>
+          <p>
+            Este apartado es una recopilación de las publicaciones del equipo de
+            la UPM y de la UC3M. Las publicaciones de la UPM están centrados en
+            el tema de computación bla bla bla etc y los de la UC3M se centran
+            en sistemas de redes de no se cuantitos.
+          </p>
+        </div>
         <section className="research lg:mx-36 md:mx-14 sm:mx-8 mx-4 lg:my-12 md:my-8 sm:my-4 my-4 xl:mx-44 2xl:mx-60">
           <Filters
             search={search}
@@ -125,22 +125,21 @@ export default function Research() {
                           </p>
                         </div>
                         <div className="button_container">
-                        {doi ? (
-                      <button className="paper_link text-nowrap">
-                        <Link
-                          rel="noopener noreferrer"
-                          target="_blank"
-                          href={doi}
-                        >
-                          <span>{t("publications.button")}</span>
-                          <FontAwesomeIcon icon={faArrowRight} />
-                        </Link>
-                      </button>
-                    ) : null}
+                          {doi ? (
+                            <button className="paper_link text-nowrap">
+                              <Link
+                                rel="noopener noreferrer"
+                                target="_blank"
+                                href={doi}
+                              >
+                                <span>{t("publications.button")}</span>
+                                <FontAwesomeIcon icon={faArrowRight} />
+                              </Link>
+                            </button>
+                          ) : null}
                         </div>
                       </div>
                     </div>
-                    
                   </div>
                 );
               })}

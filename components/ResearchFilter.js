@@ -41,7 +41,7 @@ export default function Filters (props) {
 					{years.map(y=><option key={y} value={y}>{y}</option>)}
 				</select>
 			</div>
-			{props.results === undefined ? null:<div className='research_results'><div> <p> {t('publications.filter.text')}<b> {props.results} </b> </p></div></div>}
+			{props.results === undefined ? null:<div className='research_results'><div> <p className='text-gray-400'> {t('publications.filter.text')}<b> {props.results} </b> </p></div></div>}
 		</div>)
 	
 }
