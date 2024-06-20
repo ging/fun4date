@@ -17,26 +17,26 @@ export const es = {
         "projectDescription": "FuN4DaTe aims at designing a cost-effective energy-efficient network architecture that approaches the envisioned by the ITU FG-NET2030 network and the Hyperscale cloud providers to upgrade telco networks by boosting bandwidth, latency, security, manynets while incorporating AI/ML into the network operations, on attempts to deal with forthcoming challenging services like holographic-type communications, tactile Internet for remote operations, intelligent operations networks, network and computing convergence, digital twins, space-terrestrial integrated network and industrial IoT with cloudification.",
         "latestPublicationsTitle": "Últimas publicaciones",
         "latestPublicationsButton": "Ver todas las publicaciones",
-        "linesOfActTitle": "Líneas de actuación",
-        "linesOfActBody": "Las iniciativas del grupo cyberaula comprenden al entorno educativo en su relación con el uso de las nuevas tecnologías, con el objetivo de desarrollar nuevas formas de apredizaje. la creación e impartición de MOOCs, y otros servicios de creación colaborativa de recursos para la enseñanza.",
-        "bulletElements": {
-            "bulletA": "Metodologías activas de aprendizaje",
-            "bulletD": "Incorporación de tecnologías a la formación presencial",
-            "bulletF": "Desarrollo de la dimensión docente en los Proyectos de I+D+i",
+    
+    },
+    "project": {
+        "Intro": {
+            "sectionTitle": "Introduction",
+            "sectionBody": "(Estado del arte) According to Cisco’s Visual Networking Index (VNI), data traffic has been continuously growing since the introduction of the Internet. While in the past the average overall growth seen in the operators’ networks has been around 35%, this trend seems to keep increasing towards a 45% growth rate [Cisco2018]. Video streaming is still the dominating type of traffic nowadays, but other applications and services have appeared in the past years to stress networks even more, for example Machine-2-Machine (M2M) applications and Online Gaming, with 46% CAGR and 59% CAGR respectively. In parallel, mobile traffic (5G and Beyond-5G) is expected to play a key role in the use of telco infrastructure. Indeed, global mobile traffic is expected to grow twice as fast as IP traffic.",
+            "sectionHighlight": "“Frase destacada del texto de la introducción un poco más larga y tal”",
         },
-        "gridElements":{
-            "topL":"Introducción de las TIC en la educación presencial, online o híbrida",
-            "topM":"Gamificación con fines docentes",
-            "topMsub":"Uso de juegos serios en la educación",
-            "topR":"Realización de experimentos avanzados de teleeducación",
-            "bottomL":"Creación de plataformas avanzadas para introducción de las TIC en la enseñanza. ",
-            "bottomM":"Investigación sobre estándares en educación",
-            "bottomMsub":"SCROM | LOM",
-            "bottomR":"Creación de objetos de aprendizaje mediante herramientas de autor ",
-            
-        },
-        "goalsTitle": "Objetivos",
-        "goalsBody": "El grupo CyberAula centra su actividad en la aplicación de las TIC (Tecnologías de la Información y de las comunicaciones) en la educación, fomentando el aprendizaje potenciado por la tecnología."
+        "Goals": {
+            "sectionTitle": "Goals",
+            "Goal1": {
+                "GoalTitle": "A nivel de red",
+                "GoalBody": "Innovaciones en conectividad, seguridad y operaciones autónomas.",
+            },
+            "Goal2": {
+                "GoalTitle": "A nivel de sistemas",
+                "GoalBody": "Innovaciones en nodos de red programables, offloading de funcionalidades y procesamiento distribuido.",
+            }
+
+        }
     },
     "publications": {
         "title": "Publicaciones",
