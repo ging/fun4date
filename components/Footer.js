@@ -21,7 +21,7 @@ export default function Footer(props) {
     { route: "/research", key: "nav.item" },
     { route: "/courses", key: "nav.item2" },
     { route: "/tools", key: "nav.item3" },
-    { route: "/projects", key: "nav.item4" },
+    { route: "/project", key: "nav.item4" },
     { route: "/team", key: "nav.item5" },
     { route: "/about", key: "nav.item6" },
   ];
