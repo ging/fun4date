@@ -36,7 +36,7 @@ export default function Header(props) {
           <div className="logotype">
           <img
               className="logoheader"
-              src="/assets/img/iso_logo.svg"
+              src="assets/img/iso_logo.svg"
               alt="logo"
             />
           </div>
