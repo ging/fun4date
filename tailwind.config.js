@@ -13,7 +13,13 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
-        primary: "#5441FF",
+        primary: {
+          DEFAULT: "#5441FF",
+          blue: '#1C74D9',
+          green: '#98CE00',
+          "green-400": '#D7F38A',
+        },
+
         secondary: "#393D49",
         link_header: "#9ECBFF",
         accent: "#5340FF",
@@ -22,6 +28,7 @@ module.exports = {
         burgundy: "#9F226D",
         cyan: "#21E2ED",
         lilac: "#AE9FF2",
+        // f4d brand colors
         bluePrimary:'#1C74D9',
         greenPrimary:'#98CE00',
         //borrar ca_blue, ca_orange cuando ya no estén usándose en ningún componente
