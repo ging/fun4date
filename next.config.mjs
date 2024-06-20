@@ -24,7 +24,7 @@ const nextConfig = {
       unoptimized: true,
     },
     env: {
-      PUBLIC_URL: "https://cyberaula.github.io"
+      PUBLIC_URL: "https://ging.github.io/fun4date/"
     }
   };
   

@@ -35,7 +35,7 @@ export default function Home() {
                 <div className="group_description flex flex-col gap-4 sm:justify-center md:gap-8 sm:items-center mx-8 sm:mx-8 md:ml-12 lg:ml-16 xl:ml-20 2xl:ml-24 sm:w-2/5">
                   <img
                     className="logo_home mt-4 sm:mt-0 self-start"
-                    src="/assets/img/iso_logo.svg"
+                    src="assets/img/iso_logo.svg"
                   />
                   <h2 className="text-white self-start">{t("front.title")}</h2>
                   <button className="action_button self-start">
