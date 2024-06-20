@@ -11,11 +11,10 @@ export const es = {
     },
     "front": {
         "title": "Redes Futuras para Centros de Datos y Empresas de Telecomunicaciones",
-
         "action-button": "Sobre el proyecto",
-        "awardH2":"GIE PREMIADO EN 2017",
-        "awardTitle": "Premio a los grupos de innovación educativa ",
-        "awardBody": "Premio otorgado al GIE CyberAula, coordinado por el profesor Juan Quemada Vives (E.T.S. DE INGENIEROS DETELECOMUNICACIÓN) ",
+        "projectTitle": "Short description of the project",
+        "projectSubtitle": "FuN4DaTe aims at designing a cost-effective energy-efficient network architecture",
+        "projectDescription": "FuN4DaTe aims at designing a cost-effective energy-efficient network architecture that approaches the envisioned by the ITU FG-NET2030 network and the Hyperscale cloud providers to upgrade telco networks by boosting bandwidth, latency, security, manynets while incorporating AI/ML into the network operations, on attempts to deal with forthcoming challenging services like holographic-type communications, tactile Internet for remote operations, intelligent operations networks, network and computing convergence, digital twins, space-terrestrial integrated network and industrial IoT with cloudification.",
         "latestPublicationsTitle": "Últimas publicaciones",
         "latestPublicationsButton": "Ver todas las publicaciones",
         "linesOfActTitle": "Líneas de actuación",
@@ -72,11 +71,10 @@ export const es = {
         "title": "Equipo",
         "professorCards":{
             "roles":{
-                "1":"Profesor",
-                "2":"Profesor asociado",
-                "3":"Profesor auxiliar",
-                "4":"Investigador/a",
-                "5":"Becario/a",
+                "1":"IP1",
+                "2":"IP2",
+                "3":"Candidato de doctorado",
+                "4":"Técnico a tiempo completo",
             },
             "positions":{
                 "1":"Coordinador",

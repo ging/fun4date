@@ -28,19 +28,16 @@ export default function Home() {
     <div className="App">
       <div className={"home_page page_" + currentLang}>
         <Header route={"/"} />
-        <div className="parallax__layer parallax__layer--base">
+        <div className="parallax__layer--base">
           <main>
             <section className="home">
-              <div className="head block sm:flex sm:flew-row items-center mt-4 sm:mt-6 md:mt-8 lg-mt-10 2xl:mt-14">
+              <div className="head block sm:flex sm:flew-row items-center py-8 sm:py-12 md:py-20 lg:py-24 2xl:py-32">
                 <div className="group_description flex flex-col gap-4 sm:justify-center md:gap-8 sm:items-center mx-8 sm:mx-8 md:ml-12 lg:ml-16 xl:ml-20 2xl:ml-24 sm:w-2/5">
                   <img
                     className="logo_home mt-4 sm:mt-0 self-start"
                     src="/assets/img/iso_logo.svg"
                   />
-                  <h2 className="text-white self-start">
-                    {t("front.title")}
-               
-                  </h2>
+                  <h2 className="text-white self-start">{t("front.title")}</h2>
                   <button className="action_button self-start">
                     <Link rel="noopener noreferrer" target="_blank" href="#">
                       <span>{t("front.action-button")}</span>
@@ -48,22 +45,15 @@ export default function Home() {
                     </Link>
                   </button>
                 </div>
-                  <div
-                    className="banner_f4d_img sm:mt-0 sm:w-3/5"
-                  />
+                <div className="banner_f4d_img sm:mt-0 sm:w-3/5" />
               </div>
 
-              <div className="body lg:mx-36 md:mx-14 sm:mx-8 mx-4 lg:my-12 md:my-8 sm:my-4 my-4 xl:mx-44 2xl:mx-60">
-                <section className="award_section">
-                  <FontAwesomeIcon className="award_icon" icon={faTrophy} />
-                  <div className="award_title">
-                    <div>
-                      <h3> {t("front.awardH2")} </h3>
-                      <h5>{t("front.awardTitle")}</h5>
-                    </div>
-                    <div className="award_card_text">
-                      <small>{t("front.awardBody")}</small>
-                    </div>
+              <div className="body">
+                <section className="project_description">
+                  <div className="xl_margin">
+                    <h2>{t("front.projectTitle")} </h2>
+                    <h5>{t("front.projectSubtitle")} </h5>
+                    <p>{t("front.projectDescription")} </p>
                   </div>
                 </section>
 

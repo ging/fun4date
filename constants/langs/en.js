@@ -12,9 +12,9 @@ export const en = {
     "front": {
         "title": "Future Networks for Datacenters and Telcos",
         "action-button": "About the project",
-        "awardH2":"EIG AWARDED IN 2017",
-        "awardTitle": "Award to the educational innovation groups",
-        "awardBody": "Award granted to the CyberAula group, coordinated by professor Juan Quemada Vives (H.T.S. of Telecommunication engineering) ",
+        "projectTitle": "Short description of the project",
+        "projectSubtitle": "FuN4DaTe aims at designing a cost-effective energy-efficient network architecture",
+        "projectDescription": "FuN4DaTe aims at designing a cost-effective energy-efficient network architecture that approaches the envisioned by the ITU FG-NET2030 network and the Hyperscale cloud providers to upgrade telco networks by boosting bandwidth, latency, security, manynets while incorporating AI/ML into the network operations, on attempts to deal with forthcoming challenging services like holographic-type communications, tactile Internet for remote operations, intelligent operations networks, network and computing convergence, digital twins, space-terrestrial integrated network and industrial IoT with cloudification.",
         "latestPublicationsTitle": "Latest publications",
         "latestPublicationsButton": "See all publications",
         "linesOfActTitle": "Lines of action",
@@ -70,13 +70,12 @@ export const en = {
     "team": {
         "title": "Team",
             "professorCards":{
-                "roles":{
-                    "1":"Professor",
-                    "2":"Associate professor",
-                    "3":"Assistant professor",
-                    "4":"Researcher",
-                    "5":"Intern",
-                },
+               "roles":{
+                "1":"IP1",
+                "2":"IP2",
+                "3":"PhD candidate",
+                "4":"Full-Time Technician",
+            },
                 "positions":{
                     "1":"Coordinator",
                 },
