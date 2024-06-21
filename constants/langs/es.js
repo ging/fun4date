@@ -34,8 +34,11 @@ export const es = {
             "Goal2": {
                 "GoalTitle": "A nivel de sistemas",
                 "GoalBody": "Innovaciones en nodos de red programables, offloading de funcionalidades y procesamiento distribuido.",
+            },
+        "Impact": {
+            "sectionTitle": "Impact",
+            "sectionBody": "Contribución a la generación de conocimiento: Cómo el proyecto ayudará a avanzar en las áreas de redes y sistemas de computación. Relevancia estratégica: Alineación con estrategias nacionales y europeas como España Digital 2026 y Horizon Europe.",
             }
-
         }
     },
     "publications": {
