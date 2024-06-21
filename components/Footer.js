@@ -82,6 +82,7 @@ export default function Footer(props) {
           <div className="footer_img_container_partners">
             <p>{t("footer.title3")}</p>
             <div>
+            <a href="/">
               <img
             
                 src="assets/img/footer/UC3M-logo.png"
@@ -92,7 +93,9 @@ export default function Footer(props) {
                 src="assets/img/footer/UPM-logo.png"
                 alt="logo"
               />
+                  </a>
             </div>
+        
           </div>
         </div>
         {/*
