@@ -73,7 +73,7 @@ export default function Footer(props) {
             <p>{t("footer.title2")}</p>
             <img
            
-              src="/assets/img/footer/financiador.png"
+              src="assets/img/footer/financiador.png"
               alt="logo"
             />
           </div>
@@ -84,12 +84,12 @@ export default function Footer(props) {
             <div>
               <img
             
-                src="/assets/img/footer/UC3M-logo.png"
+                src="assets/img/footer/UC3M-logo.png"
                 alt="logo"
               />
               <img
             
-                src="/assets/img/footer/UPM-logo.png"
+                src="assets/img/footer/UPM-logo.png"
                 alt="logo"
               />
             </div>
