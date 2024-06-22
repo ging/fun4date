@@ -8,6 +8,7 @@ import Link from "next/link";
 import { mypublications } from "@/constants/publications";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import { useTranslation } from "react-i18next";
 
 export default function Research() {
@@ -133,7 +134,7 @@ export default function Research() {
                                 href={doi}
                               >
                                 <span>{t("publications.button")}</span>
-                                <FontAwesomeIcon icon={faArrowRight} />
+                                <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
                               </Link>
                             </button>
                           ) : null}

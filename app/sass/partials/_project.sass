@@ -1,0 +1,17 @@
+@import "../lib/_variables.sass"
+@import "../lib/_mixins.sass"
+    
+
+.card_goals
+    display: flex
+    flex-direction: column
+
+    align-items: center
+    border-radius: 0.4rem
+    @include drop-shadow-blue-spread
+    h3
+        @apply text-ffdGreen-400
+    @media (min-width: $min-phone-width)
+        gap: 1rem
+    @media (min-width: $min-desktop-width)
+        gap: 2rem

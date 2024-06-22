@@ -21,7 +21,7 @@ export default function Footer(props) {
     { route: "/research", key: "nav.item" },
     { route: "/courses", key: "nav.item2" },
     { route: "/tools", key: "nav.item3" },
-    { route: "/projects", key: "nav.item4" },
+    { route: "/project", key: "nav.item4" },
     { route: "/team", key: "nav.item5" },
     { route: "/about", key: "nav.item6" },
   ];
@@ -73,7 +73,7 @@ export default function Footer(props) {
             <p>{t("footer.title2")}</p>
             <img
            
-              src="/assets/img/footer/financiador.png"
+              src="assets/img/footer/financiador.png"
               alt="logo"
             />
           </div>
@@ -82,14 +82,15 @@ export default function Footer(props) {
           <div className="footer_img_container_partners">
             <p>{t("footer.title3")}</p>
             <div>
+              
               <img
             
-                src="/assets/img/footer/UC3M-logo.png"
+                src="assets/img/footer/UC3M-logo.png"
                 alt="logo"
               />
               <img
             
-                src="/assets/img/footer/UPM-logo.png"
+                src="assets/img/footer/UPM-logo.png"
                 alt="logo"
               />
             </div>

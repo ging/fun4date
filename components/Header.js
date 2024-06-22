@@ -36,7 +36,7 @@ export default function Header(props) {
           <div className="logotype">
           <img
               className="logoheader"
-              src="/assets/img/iso_logo.svg"
+              src="assets/img/iso_logo.svg"
               alt="logo"
             />
           </div>
@@ -75,6 +75,7 @@ export default function Header(props) {
       >
         <ul>
           {routes.map((route, index) => (
+        
             <li
               key={index}
               className={route.route === props.route ? "li-selected" : ""}
