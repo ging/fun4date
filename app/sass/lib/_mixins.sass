@@ -26,8 +26,8 @@
     box-shadow: 0px 10px 13px -7px rgba(0,0,0,0.08)
 
 //IMAGES
-@mixin img_cover()
-    @apply overflow-hidden
+@mixin img_cover() // hay que ponérsela al padre de la etiqueta <img>
+    @apply overflow-hidden flex
     img
         @apply h-full w-full object-cover
    
