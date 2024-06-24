@@ -38,6 +38,7 @@ const nextConfig = {
    */
   env: {
     PUBLIC_URL: isProd ? "https://ging.github.io/fun4date/" : "",
+    BASE_PATH: isProd ? "/fun4date" : ""
   }
 };
 
