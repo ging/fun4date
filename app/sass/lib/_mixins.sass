@@ -8,11 +8,15 @@
     -moz-box-shadow: 0px 10px 13px -7px rgba(0,0,0,0.18)
     box-shadow: 0px 10px 13px -7px rgba(0,0,0,0.18)
 
-//CAMBIAR ESTE AZUL POR LA VARIABLE DE AZUL / TRANSPARENTE
 @mixin drop-shadow-blue 
     -webkit-box-shadow: 0px 8px 12px -11px rgba(91, 115, 255, 0.525)
-    // -moz-box-shadow: 0px 4px 4px -2px rgba(91, 115, 255, 0.525)
-    // box-shadow: 0px 4px 4px -2px rgba(91, 115, 255, 0.525)
+    -moz-box-shadow: 0px 8px 12px -11px rgba(91, 115, 255, 0.525)
+    box-shadow: 0px 8px 12px -11px rgba(91, 115, 255, 0.525)
+
+@mixin drop-shadow-blue-spread 
+    -webkit-box-shadow: 0px 4px 12px -6px rgba(91, 115, 255, 0.525)
+    -moz-box-shadow: 0px 4px 12px -6px rgba(91, 115, 255, 0.525)
+    box-shadow: 0px 4px 12px -6px rgba(91, 115, 255, 0.525)
 
 @mixin drop-shadow-intermediate 
     box-shadow: 0px 4px 4px 0px rgba(29, 29, 27, 0.15)
@@ -67,7 +71,7 @@
             //margin: 0 0 0 1.4rem   
         .logotype 
             .logoheader
-                width: 9rem
+                width: 7rem
     .menu_icon 
         padding: 0
         display: flex
@@ -131,7 +135,7 @@
         .logotype 
             display: flex
             width: auto
-            font-size: 2.7rem
+        
             font-weight: $bold
             font-family: $montserrat-alternates
             color: $blue_primary
@@ -157,15 +161,14 @@
             display: flex
             flex-flow: row nowrap
             justify-content: space-between
-            font-size: 1.2rem
+            //font-size: 1.2rem
             gap: 2rem
 
 @mixin nav_bar_one_line
     .imagotype
         .logoheader
-            width: 9rem
-        .logotype
-            font-size: 1.7rem
+            width: 7rem
+      
     .menu 
         width: auto
         font-weight: $semi-bold
@@ -176,15 +179,14 @@
         display: flex
         flex-flow: wrap row
         justify-content: space-between
-        font-size: 1.2rem
+  
 
 @mixin nav_bar_one_line_xl
     padding: 1.5rem 2.5rem 1.5rem 2.5rem
     .imagotype
         .logotype 
-            font-size: 2.4rem
             .logoheader
-                width:11rem
+                width:9.4rem
         .isotype
             
 @mixin li_nav_bar
@@ -195,10 +197,10 @@
                 text-decoration: none
         &.li-selected 
             a 
-                color: $link_header
-                border-bottom: $border1 $link_header
+                color: $link_header   
+                border-bottom: $border1 $link_header   
                 &:hover 
-                    border-bottom: $border1 $link_header
+                    border-bottom: $border1 $link_header   
        
 
 //ES
@@ -260,7 +262,7 @@
         #banner-publications
             // background-image: url("/assets/img/headers/publications-banner-phone.svg")
         .parallax__layer
-            padding-top: 74px
+            padding-top: 60px
     @media (min-width:$min-tablet-width-es)     
         .banner
             padding-top: 112px
@@ -304,7 +306,7 @@
         #banner-publications
             //background-image: url("/assets/img/headers/publications-banner-phone.svg")
         .parallax__layer
-            padding-top: 44px
+            padding-top: 54px
     @media (min-width:$min-tablet-width-en)     
         .banner
             padding-top: 112px

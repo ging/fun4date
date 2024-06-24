@@ -13,12 +13,14 @@
 @import "components/_buttons.sass";
 @import "components/_tags.sass";
 @import "components/_inputs.sass";
+@import "components/_icons.sass";
 
 // partials
 @import "partials/_courses.sass";
 @import "partials/_headermenu.sass";
 @import "partials/_contact.sass";
 @import "partials/_projects.sass";
+@import "partials/_project.sass";
 @import "partials/_publications.sass";
 @import "partials/_team.sass";
 @import "partials/_tools.sass";
@@ -113,10 +115,7 @@ li {
 
 body,
 html {
-  color: black;
-  @apply text-gray-100;
-  font-size: 12px;
-  font-family: $montserrat;
+  @apply text-ffdBlue-300;
   // margin: 0 auto;
   scroll-behavior: smooth;
 }
