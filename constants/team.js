@@ -8,7 +8,7 @@ export const myteam = {
         position: "IP1",
         translationKey: "",
         // "description":"description",
-        photo: "./../assets/img/team/avatar.png",
+        photo: "/assets/img/team/avatar.png",
         // "github":"github",
         // "email": "mail",
         center: "UC3M",
