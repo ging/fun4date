@@ -66,7 +66,7 @@ export default function RecentPublications(props) {
         href="/research"
         rel="noopener noreferrer"
       >
-        <div className="more mt-4 sm:mt-6 md:mt-8 2xl:mt-10">
+        <div className="more margin_top_button">
           {t("front.latestPublicationsButton")}
         </div>
       </a>

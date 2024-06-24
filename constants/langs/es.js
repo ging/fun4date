@@ -35,6 +35,21 @@ export const es = {
                 "GoalTitle": "A nivel de sistemas",
                 "GoalBody": "Innovaciones en nodos de red programables, offloading de funcionalidades y procesamiento distribuido.",
             },
+            "Subprojects": {
+                "sectionTitle": "Subprojects",
+                "Subproject1": {
+                    "Title": "Subproject 1",
+                    "Subtitle": "Networking technologies",
+                    "Body": "The group at UC3M has a long track record on different networking technologies including telco architecture, optical WDM systems, support for 5G/5G+ integration, and AI/ML-based operations for an intelligent control plane.",
+                    "Button": "See UC3M Team"
+                },
+                "Subproject2": {
+                    "Title": "Subproject 2",
+                    "Subtitle": "Computing systems",
+                    "Body": "The group at UPM has vast experience at implementing large computing systems both on premises and on the cloud focusing on big data and machine learning applications and both groups have experience at designing programmable network elements.",
+                    "Button": "See UPM Team"
+                }
+            },
         "Impact": {
             "sectionTitle": "Impact",
             "sectionBody": "Contribución a la generación de conocimiento: Cómo el proyecto ayudará a avanzar en las áreas de redes y sistemas de computación. Relevancia estratégica: Alineación con estrategias nacionales y europeas como España Digital 2026 y Horizon Europe.",
