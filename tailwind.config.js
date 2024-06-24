@@ -13,7 +13,7 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
-<<<<<<< HEAD
+
         primary: {
           DEFAULT: "#5441FF",
           blue: '#1C74D9',
@@ -23,26 +23,20 @@ module.exports = {
 
         secondary: "#393D49",
         link_header: "#9ECBFF",
-=======
-        bluePrimary:'#1C74D9',
-        greenPrimary:'#98CE00',
+
         backgroundPrimary: "#272932",
         backgroundSecondary: "#393D49",
         linkHeader: "#9ECBFF",
->>>>>>> e4c6ccf0188cf9f72b60a678dc4fdbb257dbfde2
         accent: "#5340FF",
         black: "#1F2023",
         white: "#FAFBFF",
         burgundy: "#9F226D",
         cyan: "#21E2ED",
         lilac: "#AE9FF2",
-<<<<<<< HEAD
         // f4d brand colors
         bluePrimary:'#1C74D9',
         greenPrimary:'#98CE00',
-=======
-     
->>>>>>> e4c6ccf0188cf9f72b60a678dc4fdbb257dbfde2
+
         //borrar ca_blue, ca_orange cuando ya no estén usándose en ningún componente
         //borrar
         ffdGreen:{
@@ -84,7 +78,6 @@ module.exports = {
           100:'#F8F8F8',
   
         },
-     
       },
     },
     screens: {
