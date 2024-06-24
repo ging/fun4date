@@ -70,11 +70,11 @@ export default function Team(props) {
                 </span>
               </div>
               {/* description */}
-              {description ? (
+              {/* {description ? (
                 <div className="mate_description">
                   <p>{description}</p>
                 </div>
-              ) : null}
+              ) : null} */}
             </div>
           </div>
         );
