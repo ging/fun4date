@@ -3,10 +3,10 @@
 // Correcciones: código duplicado para select e input. 
 // Recomendado hacer mixins
 
+
 @media (min-width: 150px)  
     .research 
-        display: flex
-        flex-direction: column
+        @apply flex flex-col
         flex: 1
         
         .filters
@@ -15,11 +15,6 @@
             display: flex
             flex-direction: column
             align-items: start
-           
-        // .main
-        //     min-height: calc(100vh - 150px)
-        //     padding: 5rem 0 0 0
-        //     background-color: red
         
         .research_results
             display: flex
@@ -60,7 +55,7 @@
         border-bottom: solid 1px $ca-blue-200
         justify-content: left
         .filter
-            margin: 0 0.8rem 0.8rem 0
+            margin: 0 0.5rem
             width: 100%
             text-align: right
             label
@@ -77,22 +72,17 @@
            
   
     .papers 
-        display: flex
-        
-        padding-left: 0px
+        @apply grid md:grid-cols-2 gap-8
         .paper 
-            
+            @apply h-full
             display: flex
             flex-direction: column
             border-bottom: $gray-300 1px solid
             
             
         .paper_main 
-            display: flex
-            flex-direction: column
-            justify-content: space-between
-            
-            
+            @apply flex flex-col justify-between
+
             .paper_date
                 display: flex
                 border-width: 4px
@@ -104,10 +94,10 @@
                 // border-right: 3px solid red 
                 -webkit-border-image: -webkit-gradient(linear, 0% 0%, 0% 0%, from(rgba(152, 206, 9, 1)), to(rgba(152, 206, 0, 0))) 1 100%
 
-                p
+                .year
                     // @include border-tag
-                    @apply text-gray-400 px-4
-                    font-size: 2.5rem
+                    @apply text-gray-400 pl-4
+                    font-size: 1.25rem
                     font-weight: 400
                     display: block
                 
@@ -118,6 +108,7 @@
                 @apply text-ffdGreen-300
 
             .paper_subtitle 
+                font-family: 16px
                 //padding-bottom: $spacing_md
                 @apply text-gray-100
                 margin-bottom: $spacing_xsm
@@ -126,19 +117,7 @@
 
         .paper_link      
             @include icon-button-right
-            @include link-button
-            // @include button    
-            // display: flex
-            // flex-direction: row
-            // //gap: $spacing_xsm
-            // align-content: center
-            // justify-content: left
-            // margin-top: 0.6rem        
-            // a 
-                
-            //     display: flex
-            //     align-content: center
-                //margin-top: $spacing_sm          
+            @include link-button       
            
             
             
@@ -149,7 +128,7 @@
             display: flex
             flex-wrap: wrap
             gap: 4px
-            padding-bottom: $spacing_lg
+            padding-bottom: $spacing_sm
             border-bottom: solid 1px $ca-blue-100
             justify-content: space-between
             .filter
@@ -167,21 +146,15 @@
                 input
                     width: 20.6rem
     .papers 
-        display: flex
-        flex-direction: column
-        gap: $spacing_xsm
-        display: flex
-        flex-direction: column
         padding: $spacing_sm 0 $spacing_md 0
         .paper 
-            padding: $spacing_sm 0 $spacing_md 0
+            @apply h-full
+            padding-bottom: $spacing_md
        
 
 
         .paper_main 
-            display: flex
-            flex-direction: row
-            justify-content: left
+            @apply flex flex-row justify-start
             gap: $spacing_md
             .paper_date
                 display: flex
@@ -195,7 +168,7 @@
                 -webkit-border-image: -webkit-gradient(linear, 0% 0%, 0% 0%, from(rgba(152, 206, 9, 1)), to(rgba(152, 206, 0, 0))) 1 100%
 
                 h5
-                    @include border-tag
+                    // @include border-tag
                 
             .paper_content 
                 width:100%
@@ -212,8 +185,8 @@
                 font-weight: 600
 
         .button_container
-            display: flex
-            justify-content: end
+            @apply mt-4 
+            @apply flex justify-end
             .paper_link
                 @include button
                 display: flex
@@ -295,3 +268,5 @@
                             margin: 0
                         a
                             display: flex
+.papers
+    

@@ -60,9 +60,9 @@ export default function Team(props) {
                 </div>
               ) : null} */}
               {/* mail */}
-              <div className="mate_email">
+              {/* <div className="mate_email">
                 <small>{email}</small>
-              </div>
+              </div> */}
               {/* description */}
               <div className="mate_coordination">
                 <span className={position === "Coordinator" ? "coordinator" : ""}>

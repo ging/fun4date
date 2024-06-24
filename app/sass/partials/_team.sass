@@ -1,8 +1,5 @@
-// *
-//     border: 1px solid salmon
- 
 .team
-    @apply text-white
+    @apply text-white font-main-font
     main
         .teammates
             @apply sm:grid grid-cols-2 lg:grid-cols-3 gap-8 justify-between
@@ -23,9 +20,8 @@
                 
                 .mate_img 
                     @apply max-h-[230px]
-                    @apply overflow-hidden
-                    img
-                        @apply h-full w-full object-cover
+                    @Iinclude img_cover()
+
 
                 .mate_info
                     @apply py-8 px-6
